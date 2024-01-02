@@ -2,65 +2,91 @@
 # A Desktop configuration script (manjaro linux)
 echo "A Desktop configuration script for Manjaro Linux"
 
-sudo pacman -Syu                                   #Updating repositorys
+sudo pacman -Syu                                   # Updating repositorys
 sudo pacman -S --needed --noconfirm base-devel git # Install git
-git clone https://aur.archlinux.org/yay-git.git    # Clone the YAY AUR HELPER archive
-sudo mv yay-git /opt/                              # Moving files to the opt directory
-cd /opt/yay-git || exit                            # Going to the correct folder to install YAY
-sudo makepkg -si                                   # Build the YAY package using the makepkg command.
 
 #Installing the software
 
+    # Documentation ->
+    pamac install manjaro-starter
+
     # Editing ->
-    sudo pacman -S Audacity	        # Audacity - Audio Editor
-    sudo pamac install natron	    # Natron - Special Effects
-    sudo pamac install kdenlive     # Kdenlive - Video Editor
+    sudo pamac -S install Audacity	     # Audacity - Audio Editor
+    sudo pamac install natron	         # Natron - Special Effects
+    sudo pamac install kdenlive          # Kdenlive - Video Editor
+    pamac install texlive-*              # TeX Live - Text Editor and Latex
+
 
     # Graphics ->
-    sudo pamac install gimp         # Gimp - Image Editor
-    sudo pamac install blender      # Blender - 3d Modeling
-    sudo pamac install inkscape     # Inkscape - Vector Graphics Editor
-    sudo pamac install scribus      # Scribus - Page Layout Program
-    # find a good build of darktable, not putting snap here
-                                    # DIA - only found snap untill now
+    sudo pamac install gimp              # Gimp - Image Editor
+    sudo pamac install blender           # Blender - 3d Modeling
+    sudo pamac install inkscape          # Inkscape - Vector Graphics Editor
+    sudo pamac install scribus           # Scribus - Page Layout Program
+    sudo pamac build darktable-git       # Darktable - Photo Editor
+    sudo pamac build drawio-desktop-bin  # Draw.io - Diagram Editor
+    sudo pamac install dia               # Dia - Diagram Editor
+
     # Dev ->
-    sudo pacman -Syu code           # VScode - IDE/text editor
-    sudo pacman -S mysql-workbench	# MySQL Workbench - database
-    sudo pacman -S mc               # Midnight Commander
+    sudo pamac -Syu code                 # VScode - IDE/text editor
+    sudo pamac -S mysql-workbench	     # MySQL Workbench - database
+    sudo pamac -S mc                     # Midnight Commander
 
     # Midia ->
-    #use mpv instead of vlc
-    sudo pamac install vlc          # VLC - Media Player
-    sudo pamac install audacious    # Audacious - Media Player
-                                    # Find Another podcast player beacuse cpod is only on github and snap
-                                    # Find a way to install in Stremio        
+    sudo pamac build stremio             # Stremio - Media Player
+    sudo pamac build pimpmystremio-bin   # Local add-on manager for Stremio
+    sudo pamac install vlc               # VLC - Media Player
+    sudo pamac install audacious         # Audacious - Media Player
+                                         # Find Another podcast player beacuse cpod is only on github and snap
+                                         # Use mpv instead of vlc
+
     # Office ->
-    yay -S onlyoffice-bin           # OnlyOffice - office suite
-                                    # Check the plugins for it
-    sudo pamac install calibre      # Calibre - Ebook management application
+    pamac build -S onlyoffice-bin        # OnlyOffice - office suite
+                                         # Check the plugins for OnlyOffice
+    sudo pamac install calibre           # Calibre - Ebook management application
         
     # Social ->
-    Fluent Reader
-    sudo pamac install quiterss     # QuiteRSS - Leitor de RSS
-    sudo pacman -S signal-desktop   # Signal - XMPP Messager
-    sudo pacman -S discord          # Discord - All-in-one voice and text chat
-    pamac install telegram-desktop  # Telegram - Instant Messaging
-                                    # Search how to install telegram Themes with terminal
+    sudo pamac -S signal-desktop         # Signal - XMPP Messager
+    sudo pamac -S discord                # Discord - All-in-one voice and text chat
+    sudo pamac install telegram-desktop  # Telegram - Instant Messaging
+                                         # Search how to install telegram Themes with terminal
 
-    Thunderbird - Email reader
-
-    #Other ->
-    pamac install monero-gui        # Monero - wallet for Monero
-    yay -S brave-bin                # Brave - Web Browser
-
-
+    # Other ->
+    sudo pamac install monero-gui        # Monero - wallet for Monero
+    sudo pamac build -S brave-bin        # Brave - Web Browser
+    sudo pamac build -S betterbird-bin   # Thunderbird Email Reader but better
         
 
-    #Whisker Menu Configuration
-    #Panel Configuration
-    #Edit Grub
-    #Edit Greeting Screen
-    #Install Theme
-    #Instal Fonts
-    #Istall Icons
+    # FeedReading Software ->
+    sudo pamac build fluent-reader-bin   # Fluent Reader - RSS Reader
+    sudo pamac install quiterss          # QuiteRSS - RSS Reader (For General Porpuse)
+    sudo pamac build transmission-gtk3   # Transmission - Torrent Client
+
+
+    # QGIS
+    # NextCloud
+
+    # Installing Plasma Widgets
+
+    # Installing KDE Apperence Packages
+        # Look & Feel Theme
+        # Cursor
+        # Icons
+        # GTK3
+        # Window Decorations
+        # Kwin Scripts
+
+
+    # Whisker Menu Configuration
+
+    # Panel Configuration
+
+    # Edit Grub
+
+    # Edit Greeting Screen
+
+    # Install Theme
+
+    # Instal Fonts
+    
+    # Istall Icons
 
