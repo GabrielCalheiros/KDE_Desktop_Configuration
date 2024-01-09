@@ -16,7 +16,6 @@ sudo pacman -S --needed --noconfirm base-devel git # Install git
     sudo pamac install kdenlive          # Kdenlive - Video Editor
     pamac install texlive-*              # TeX Live - Text Editor and Latex
 
-
     # Graphics ->
     sudo pamac install gimp              # Gimp - Image Editor
     sudo pamac install blender           # Blender - 3d Modeling
@@ -68,9 +67,10 @@ sudo pacman -S --needed --noconfirm base-devel git # Install git
     # Installing Plasma Widgets
 
     # Installing KDE Apperence Packages
-        # Look & Feel Theme
-        # Cursor
+        # Global Theme
+        # Plasma Themes
         # Icons
+        # Cursor
         # GTK3
         # Window Decorations
         # Kwin Scripts
@@ -89,4 +89,3 @@ sudo pacman -S --needed --noconfirm base-devel git # Install git
     # Instal Fonts
     
     # Istall Icons
-
