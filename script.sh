@@ -74,18 +74,13 @@ sudo pacman -S --needed --noconfirm base-devel git # Install git
         # GTK3
         # Window Decorations
         # Kwin Scripts
+        # https://alternativeto.net/software/unetbootin/about/
 
 
     # Whisker Menu Configuration
-
     # Panel Configuration
-
     # Edit Grub
-
     # Edit Greeting Screen
-
     # Install Theme
-
     # Instal Fonts
-    
     # Istall Icons
