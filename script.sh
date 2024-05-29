@@ -74,3 +74,4 @@ sudo pacman -S transmission-gtk3   # Transmission - Torrent Client
 
 # Find Another podcast player beacuse cpod is only on github and snap
 # Use mpv instead of vlc
+
