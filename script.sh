@@ -2,85 +2,75 @@
 # A Desktop configuration script (manjaro linux)
 echo "A Desktop configuration script for Manjaro Linux"
 
-sudo pacman -Syu                                   # Updating repositorys
-sudo pacman -S --needed --noconfirm base-devel git # Install git
+sudo pacman -Syu # Updating repositorys
 
-#Installing the software
-
-    # Documentation ->
-    pamac install manjaro-starter
-
-    # Editing ->
-    sudo pamac -S install Audacity	     # Audacity - Audio Editor
-    sudo pamac install natron	         # Natron - Special Effects
-    sudo pamac install kdenlive          # Kdenlive - Video Editor
-    pamac install texlive-*              # TeX Live - Text Editor and Latex
-
-    # Graphics ->
-    sudo pamac install gimp              # Gimp - Image Editor
-    sudo pamac install blender           # Blender - 3d Modeling
-    sudo pamac install inkscape          # Inkscape - Vector Graphics Editor
-    sudo pamac install scribus           # Scribus - Page Layout Program
-    sudo pamac build darktable-git       # Darktable - Photo Editor
-    sudo pamac build drawio-desktop-bin  # Draw.io - Diagram Editor
-    sudo pamac install dia               # Dia - Diagram Editor
-
-    # Dev ->
-    sudo pamac -Syu code                 # VScode - IDE/text editor
-    sudo pamac -S mysql-workbench	     # MySQL Workbench - database
-    sudo pamac -S mc                     # Midnight Commander
-
-    # Midia ->
-    sudo pamac build stremio             # Stremio - Media Player
-    sudo pamac build pimpmystremio-bin   # Local add-on manager for Stremio
-    sudo pamac install vlc               # VLC - Media Player
-    sudo pamac install audacious         # Audacious - Media Player
-                                         # Find Another podcast player beacuse cpod is only on github and snap
-                                         # Use mpv instead of vlc
-
-    # Office ->
-    pamac build -S onlyoffice-bin        # OnlyOffice - office suite
-                                         # Check the plugins for OnlyOffice
-    sudo pamac install calibre           # Calibre - Ebook management application
-        
-    # Social ->
-    sudo pamac -S signal-desktop         # Signal - XMPP Messager
-    sudo pamac -S discord                # Discord - All-in-one voice and text chat
-    sudo pamac install telegram-desktop  # Telegram - Instant Messaging
-                                         # Search how to install telegram Themes with terminal
-
-    # Other ->
-    sudo pamac install monero-gui        # Monero - wallet for Monero
-    sudo pamac build -S brave-bin        # Brave - Web Browser
-    sudo pamac build -S betterbird-bin   # Thunderbird Email Reader but better
-        
-
-    # FeedReading Software ->
-    sudo pamac build fluent-reader-bin   # Fluent Reader - RSS Reader
-    sudo pamac install quiterss          # QuiteRSS - RSS Reader (For General Porpuse)
-    sudo pamac build transmission-gtk3   # Transmission - Torrent Client
+# Installing the software ################################################################################
 
 
-    # QGIS
-    # NextCloud
+# Docs ###################################################################################################
+sudo pacman -S manjaro-starter
+# Editing ################################################################################################
+sudo pacman -S install Audacity	   # Audacity - Audio Editor
+sudo pacman -S natron	           # Natron - Special Effects
+sudo pacman -S kdenlive            # Kdenlive - Video Editor
+sudo pacman -S texlive-*           # TeX Live - Text Editor and Latex
+# Graphics ###############################################################################################      
+sudo pacman -S gimp                # Gimp - Image Editor
+sudo pacman -S blender             # Blender - 3d Modeling
+sudo pacman -S inkscape            # Inkscape - Vector Graphics Editor
+sudo pacman -S scribus             # Scribus - Page Layout Program
+sudo pacman -S darktable-git       # Darktable - Photo Editor
+sudo pacman -S drawio-desktop-bin  # Draw.io - Diagram Editor
+sudo pacman -S dia                 # Dia - Diagram Editor
+# Dev ####################################################################################################                      
+sudo pacman -S code                # VScode - IDE/text editor
+sudo pacman -S mysql-workbench	   # MySQL Workbench - database
+sudo pacman -S mc                  # Midnight Commander
+# Midia ##################################################################################################          
+sudo pacman -S stremio             # Stremio - Media Player
+sudo pacman -S pimpmystremio-bin   # Local add-on manager for Stremio
+sudo pacman -S vlc                 # VLC - Media Player
+sudo pacman -S audacious           # Audacious - Media Player
+# Office #################################################################################################
+sudo pacman -S onlyoffice-bin      # OnlyOffice - office suite # Check the plugins for OnlyOffice
+sudo pacman -S calibre             # Calibre - Ebook management application
+# Social #################################################################################################
+sudo pacman -S signal-desktop      # Signal - XMPP Messager
+sudo pacman -S discord             # Discord - All-in-one voice and text chat
+sudo pacman -S telegram-desktop    # Telegram - Instant Messaging # Search how to install telegram Themes
+# Other ##################################################################################################
+sudo pacman -S monero-gui          # Monero - wallet for Monero
+sudo pacman -S brave-bin           # Brave - Web Browser
+sudo pacman -S betterbird-bin      # Thunderbird Email Reader but better
+# Feeds ##################################################################################################
+sudo pacman -S fluent-reader-bin   # Fluent Reader - RSS Reader
+sudo pacman -S quiterss            # QuiteRSS - RSS Reader (For General Porpuse)
+sudo pacman -S transmission-gtk3   # Transmission - Torrent Client
+##########################################################################################################
 
-    # Installing Plasma Widgets
 
-    # Installing KDE Apperence Packages
-        # Global Theme
-        # Plasma Themes
-        # Icons
-        # Cursor
-        # GTK3
-        # Window Decorations
-        # Kwin Scripts
-        # https://alternativeto.net/software/unetbootin/about/
+# QGIS
+# NextCloud
 
+# Installing Plasma Widgets
 
-    # Whisker Menu Configuration
-    # Panel Configuration
-    # Edit Grub
-    # Edit Greeting Screen
-    # Install Theme
-    # Instal Fonts
-    # Istall Icons
+# Installing KDE Apperence Packages
+    # Global Theme
+    # Plasma Themes
+    # Icons
+    # Cursor
+    # GTK3
+    # Window Decorations
+    # Kwin Scripts
+    # https://alternativeto.net/software/unetbootin/about/
+
+# Whisker Menu Configuration
+# Panel Configuration
+# Edit Grub
+# Edit Greeting Screen
+# Install Theme
+# Instal Fonts
+# Istall Icons
+
+# Find Another podcast player beacuse cpod is only on github and snap
+# Use mpv instead of vlc
