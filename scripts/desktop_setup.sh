@@ -27,11 +27,14 @@ sudo pacman -S --noconfirm darktable-git       # Darktable - Photo Editor
 sudo pacman -S --noconfirm drawio-desktop-bin  # Draw.io - Diagram Editor
 sudo pacman -S --noconfirm dia                 # Dia - Diagram Editor
 # Dev ####################################################################################################                      
-sudo pacman -S --noconfirm code                # VScode - IDE/text editor
+sudo pacman -S --noconfirm code                # VScodium - IDE/text editor
 sudo pacman -S --noconfirm mysql-workbench	   # MySQL Workbench - database
 sudo pacman -S --noconfirm mc                  # Midnight Commander
 # Fillezilla
 # DBeaver
+# VScodium
+# Export the list of installed extensions
+# code --list-extensions | xargs -L 1 echo code --install-extension
 # Midia ##################################################################################################          
 sudo pacman -S --noconfirm stremio             # Stremio - Media Player
 sudo pacman -S --noconfirm pimpmystremio-bin   # Local add-on manager for Stremio
