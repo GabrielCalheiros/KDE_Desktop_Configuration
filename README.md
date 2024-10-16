@@ -5,3 +5,10 @@
 ![image](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
 Configuration files for my manjaro cinnamon desktop configurations, fonts instalation, wallpappers, opmls and etc.
+
+
+
+**Update both Official and AUR repositories**: <code>yay -Syu</code>
+**Install a package**: <code>sudo pacman -S package_name</code>
+**Search for packages with Yay**: <code>yay -Ss package_name</code>
+
