@@ -46,10 +46,6 @@ Remove All Cached Packages (Use with Caution): <code>sudo pacman -Scc</code>
 
 ### Refresh Mirrorlist
 
-Update Mirrors via Terminal:
+Update Mirrors via Terminal: <code>sudo pacman-mirrors --fasttrack</code>
 
-<code>sudo pacman-mirrors --fasttrack</code>
-
-Then, synchronize and update:
-
-<code>sudo pacman -Syyu</code>
+Then, synchronize and update: <code>sudo pacman -Syyu</code>
