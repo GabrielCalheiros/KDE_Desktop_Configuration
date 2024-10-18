@@ -18,7 +18,6 @@ Configuration files for my manjaro cinnamon desktop configurations, fonts instal
 
 **Install AUR package with Yay:** <code>yay -S package_name</code>
 
-
 ## Cleaning Up Your System:
 
 ### Clear Pacman Cache
@@ -32,7 +31,6 @@ Pacman keeps a cache of all downloaded packages. Over time, this can consume sig
 Remove All Cached Packages (Use with Caution): <code>sudo pacman -Scc</code>
 
 *This will remove all cached packages and is generally not recommended unless you have limited disk space and are okay with re-downloading packages if needed.*
-
 
 ### Clean Yay Cache
 
