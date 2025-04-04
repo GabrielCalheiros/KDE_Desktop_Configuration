@@ -6,6 +6,10 @@
 
 Configuration files for my manjaro cinnamon desktop configurations, fonts instalation, wallpappers, opmls and etc.
 
+# After Instalation
+
+If im using EndevourOS (the distro of my choice currentrly), after the installation i should run the following code: <code>systemctl enable systemd-homed</code> For some reason everytime the system is disabled and sudo does not work until i run it. If you are unsure, run <code>systemctl status systemd-homed</code> to check out the status of <strong>systemd-homed</strong>.
+
 # Commands to Remember:
 
 **Update both Official and AUR repositories**: <code>yay -Syu</code>
@@ -36,14 +40,12 @@ Remove All Cached Packages (Use with Caution): <code>sudo pacman -Scc</code>
 
 **List Cached AUR Packages:** <code>ls ~/.cache/yay/</code>
 
-**Remove Cached AUR Packages Older Than a Certain Date:** 
-
-*Unfortunately, yay doesn't provide a direct command for this, but you can manually delete old cached files. For example, to delete all cached files:*
-
-<code>rm -rf ~/.cache/yay/*</code>
-
 ### Refresh Mirrorlist
 
 Update Mirrors via Terminal: <code>sudo pacman-mirrors --fasttrack</code>
 
 Then, synchronize and update: <code>sudo pacman -Syyu</code>
+
+# Useful Links
+
+- [Ricing Plasma Guide](https://xerolinux.xyz/posts/ricing-plasma/)
