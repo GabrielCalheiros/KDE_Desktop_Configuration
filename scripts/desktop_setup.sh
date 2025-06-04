@@ -4,6 +4,13 @@ echo "A Desktop configuration script for Manjaro Linux"
 
 echo $pass | sudo -S pacman -Syyuu --noconfirm # Updating repositorys
 
+# Leafpad 
+# Galculator
+# SMPlayer
+# KolourPaint 
+# cmatrix
+
+
 # System Stuff ############################################################################################################################
 sudo pacman -S --noconfirm htop                            # Htop - System Monitor
 sudo pacman -S --noconfirm neofetch                        # Neofetch - System Information
@@ -147,4 +154,3 @@ sudo pacman -S --noconfirm ttf-sourcecodepro-nerd          # Source Code Pro Ner
 #     Launch Feedback -> .config/klaunchrc
 #     Font management -> .config/kfontinstuirc
 #     Splash screen -> .config/ksplashrc
-

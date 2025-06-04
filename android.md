@@ -11,6 +11,7 @@
 [] Telegram
 [] Tiktok
 [] Instagram
+[] Linkedin
 [] Install Uber
 [] Microsoft Authenticator
 [] Pontofopag
@@ -31,5 +32,4 @@
 [] Install LibreOffice Viewer
 
 https://alternativeto.net/lists/28655/the-ultimate-f-droid-setup/
-
 
