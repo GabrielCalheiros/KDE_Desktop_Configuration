@@ -9,7 +9,7 @@ echo $pass | sudo -S pacman -Syyuu --noconfirm # Updating repositorys
 # SMPlayer
 # KolourPaint 
 # cmatrix
-
+# install Penpot
 
 # System Stuff ############################################################################################################################
 sudo pacman -S --noconfirm htop                            # Htop - System Monitor
