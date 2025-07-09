@@ -4,29 +4,66 @@ echo "A Desktop configuration script for Manjaro Linux"
 
 echo $pass | sudo -S pacman -Syyuu --noconfirm # Updating repositorys
 
-# Leafpad 
-# Galculator
-# SMPlayer
-# KolourPaint 
-# cmatrix
-# install Penpot
+# QGIS
+# NextCloud
 
-# System Stuff ############################################################################################################################
+# Terminal Tools ############################################################################################################################
+# tmux                                                     # Terminal Multiplexer
+# cmatrix                                                  # ASCII Matrix Art
+# hollywood                                                # ASCII HackerLooking Art
+# ranger                                                   # Navegador de arquivos no terminal, modo vi.
+# tldr                                                     # Exemplos simples de comandos Linux.
 sudo pacman -S --noconfirm htop                            # Htop - System Monitor
+# bpytop                                                   # Monitor de sistema moderno (melhor UI que htop).
+# glances                                                  # Monitor de sistema completo (CPU, RAM, redes, discos).
 sudo pacman -S --noconfirm neofetch                        # Neofetch - System Information
-sudo pacman -S --noconfirm syncthing                       # syncthing
+# screenfetch                                              # Alternativa ao neofetch.
+# exa                                                      # ls aprimorado, colorido, tree view.
+# lm_sensors                                               # Monitoramento de temperatura e sensores.
+# bat                                                      # cat aprimorado, com syntax highlight.
+# ncdu                                                     # Análise de uso de disco via terminal.
 sudo pacman -S --noconfirm yay                             # An AUR helper to simplify installing AUR packages
+# nmap                                                     # Port Scanner
+# iperf3                                                   # Teste de velocidade de rede 
+# mtr                                                      # diagnosticar problemas de rede
+# ethtool                                                  # Configurações de interface de rede.
+# yt-dlp                                                   # yt-dlp - Video Downloader
+# lynx                                                     # Terminal Web Browser
+# figlet                                                   # Gera banners ASCII no terminal.
+# lolcat                                                   # figlet + cat
+# asciiquarium                                             # ASCII Aquarium
+# openvpn                                                  # VPN Client
+# wireguard-tools                                          # WireGuard Client
+
+# Network an Internet ############################################################################################################################
+sudo pacman -S --noconfirm syncthing                       # syncthing
+# postman                                                  # API Testing
+# gitkraken                                                # Git Client
+# torbrowser-launcher                                      # Tor Browser
+# brave-bin                                                # Brave Browser
+
+
+# System Tools ############################################################################################################################
+# Galculator                                               # Calculator
 sudo pacman -S --noconfirm bleachbit                       # Bleachbit - System Cleaner
 sudo pacman -S --noconfirm gnome-disk-utility              # gnome-disk-utility
 sudo pacman -S --noconfirm baobab                          # baobab
-# Docs ####################################################################################################################################
-sudo pacman -S --noconfirm manjaro-starter                 # Manjaro Starter
+
+
 # Editing #################################################################################################################################
+# Leafpad                                                  # Text Editor
 sudo pacman -S --noconfirm install Audacity	               # Audacity - Audio Editor
 sudo pacman -S --noconfirm natron	                       # Natron - Special Effects
 sudo pacman -S --noconfirm kdenlive                        # Kdenlive - Video Editor
 sudo pacman -S --noconfirm texlive-*                       # TeX Live - Text Editor and Latex
+
+
 # Graphics ################################################################################################################################
+# KolourPaint                                              # Paint Program
+# Penpot                                                   # Canva's Like Program
+# krita                                                    # Krita - Paint Program
+# mypaint                                                  # MyPaint - Paint Program
+# fontforge                                                # Font Editor
 sudo pacman -S --noconfirm gimp                            # Gimp - Image Editor
 sudo pacman -S --noconfirm blender                         # Blender - 3d Modeling
 sudo pacman -S --noconfirm inkscape                        # Inkscape - Vector Graphics Editor
@@ -34,32 +71,60 @@ sudo pacman -S --noconfirm scribus                         # Scribus - Page Layo
 sudo pacman -S --noconfirm darktable-git                   # Darktable - Photo Editor
 sudo pacman -S --noconfirm drawio-desktop-bin              # Draw.io - Diagram Editor
 sudo pacman -S --noconfirm dia                             # Dia - Diagram Editor
+
+
 # Dev #####################################################################################################################################
 sudo pacman -S --noconfirm mysql-workbench	               # MySQL Workbench - database
 sudo pacman -S --noconfirm mc                              # Midnight Commander
 sudo pacman -S --noconfirm filezilla                       # Filezilla
 sudo pacman -S --noconfirm dbeaver                         # Dbeaver
-# VScodium # Export list extensiond from vscode | install postman gitkraken
+# localstack                                               # Simulador local de AWS services.
+# VScodium                                                 # Visual Studio Code
+# Export list extensiond from vscode
+
+
 # Midia ###################################################################################################################################
 sudo pacman -S --noconfirm stremio                         # Stremio - Media Player
 sudo pacman -S --noconfirm pimpmystremio-bin               # Local add-on manager for Stremio
 sudo pacman -S --noconfirm vlc                             # VLC - Media Player
 sudo pacman -S --noconfirm audacious                       # Audacious - Media Playerare
+# cpod                                                     # Podcast Player
+# mpv                                                      # mpv - Media Player
+# handbrake                                                # Handbrake - Video Converter
+# obs-studio                                               # OBS Studio - Video Recorder
+# yt-dlp                                                   # yt-dlp - Video Downloader
+# gpodder                                                  # gpodder - Podcast Player
+# clementine                                               # Clementine - Player de música
+# okular                                                   # Okular - PDF Reader
+# pdfarranger                                              # PDF Manager
+# xournalpp                                                # note-taking software
+# cherrytree                                               # Notas hierárquicas com syntax highlight.
+# zim                                                      # Wiki desktop local.
+
+
 # Office ##################################################################################################################################
 sudo pacman -S --noconfirm onlyoffice-bin                  # OnlyOffice - office suite # Check the plugins for OnlyOffice
 sudo pacman -S --noconfirm calibre                         # Calibre - Ebook management application
+
+
 # Social ##################################################################################################################################
 sudo pacman -S --noconfirm signal-desktop                  # Signal - XMPP Messager
 sudo pacman -S --noconfirm discord                         # Discord - All-in-one voice and text chat
 sudo pacman -S --noconfirm telegram-desktop                # Telegram - Instant Messaging # Search how to install telegram Themes
+
+
 # Other ###################################################################################################################################
 sudo pacman -S --noconfirm monero-gui                      # Monero - wallet for Monero
 sudo pacman -S --noconfirm brave-bin                       # Brave - Web Browser
 sudo pacman -S --noconfirm betterbird-bin                  # Thunderbird Email Reader but better
+
+
 # Feeds ###################################################################################################################################
 sudo pacman -S --noconfirm fluent-reader-bin               # Fluent Reader - RSS Reader
 sudo pacman -S --noconfirm quiterss                        # QuiteRSS - RSS Reader (For General Porpuse)
 sudo pacman -S --noconfirm transmission-gtk3               # Transmission - Torrent Client
+
+
 # Fonts ###################################################################################################################################
 sudo pacman -S --noconfirm otf-aurulent-nerd               # Aurulent Nerd Font
 sudo pacman -S --noconfirm otf-cascadia-code-nerd          # Cascadia Code Nerd Font
@@ -117,8 +182,6 @@ sudo pacman -S --noconfirm ttf-roboto-mono-nerd            # Roboto Mono Nerd Fo
 sudo pacman -S --noconfirm ttf-sourcecodepro-nerd          # Source Code Pro Nerd Font
 ###########################################################################################################################################
 
-# QGIS
-# NextCloud
 
 # Installing Plasma Widgets
 # Whisker Menu Configuration
@@ -128,9 +191,6 @@ sudo pacman -S --noconfirm ttf-sourcecodepro-nerd          # Source Code Pro Ner
 # Install Theme
 # Instal Fonts
 # Istall Icons
-
-# Find Another podcast player beacuse cpod is only on github and snap
-# Use mpv instead of vlc
 
 
 # Config Files:
