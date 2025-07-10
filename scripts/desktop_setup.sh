@@ -3,67 +3,123 @@
 echo "A Desktop configuration script for Manjaro Linux"
 
 echo $pass | sudo -S pacman -Syyuu --noconfirm # Updating repositorys
+sudo pacman -S --noconfirm yay                 # An AUR helper to simplify installing AUR packages
 
-# QGIS
-# NextCloud
+
+# Terminal Monitors #########################################################################################################################
+sudo pacman -S --noconfirm htop                            # Htop - System Monitor
+# bpytop                                                   # Monitor de sistema moderno  (melhor UI que htop).
+# vtop                                                     # Monitor de sistema moderno  (melhor UI que htop).
+# glances                                                  # Monitor de sistema completo (CPU, RAM, redes, discos).
+# lm_sensors                                               # Monitoramento de temperatura e sensores.
+# ncdu                                                     # Análise de uso de disco via terminal.
+# nmap                                                     # Port Scanner
+
 
 # Terminal Tools ############################################################################################################################
-# tmux                                                     # Terminal Multiplexer
-# cmatrix                                                  # ASCII Matrix Art
-# hollywood                                                # ASCII HackerLooking Art
-# ranger                                                   # Navegador de arquivos no terminal, modo vi.
-# tldr                                                     # Exemplos simples de comandos Linux.
-sudo pacman -S --noconfirm htop                            # Htop - System Monitor
-# bpytop                                                   # Monitor de sistema moderno (melhor UI que htop).
-# glances                                                  # Monitor de sistema completo (CPU, RAM, redes, discos).
 sudo pacman -S --noconfirm neofetch                        # Neofetch - System Information
 # screenfetch                                              # Alternativa ao neofetch.
-# exa                                                      # ls aprimorado, colorido, tree view.
-# lm_sensors                                               # Monitoramento de temperatura e sensores.
-# bat                                                      # cat aprimorado, com syntax highlight.
-# ncdu                                                     # Análise de uso de disco via terminal.
-sudo pacman -S --noconfirm yay                             # An AUR helper to simplify installing AUR packages
-# nmap                                                     # Port Scanner
 # iperf3                                                   # Teste de velocidade de rede 
 # mtr                                                      # diagnosticar problemas de rede
 # ethtool                                                  # Configurações de interface de rede.
 # yt-dlp                                                   # yt-dlp - Video Downloader
 # lynx                                                     # Terminal Web Browser
-# figlet                                                   # Gera banners ASCII no terminal.
 # lolcat                                                   # figlet + cat
-# asciiquarium                                             # ASCII Aquarium
 # openvpn                                                  # VPN Client
 # wireguard-tools                                          # WireGuard Client
+# tmux                                                     # Terminal Multiplexer
+# ranger                                                   # Navegador de arquivos no terminal, modo vi.
+# tldr                                                     # Exemplos simples de comandos Linux.
+# exa                                                      # ls aprimorado, colorido, tree view.
+# bat                                                      # cat aprimorado, com syntax highlight.
+# ffmpeg                                                   # FFMpeg - Video Converter
+# mc                                                       # cross-platform orthodox file manager
+
+
+# Terminal Games ##############################################################################################################################
+# bastet                                                   # Bastet - Breakout Clone
+# ninvaders                                                # ninvaders - Space Invaders
+# nsnake                                                   # nsnake - Snake Clone
+# moon-buggy                                               # moon-buggy - Breakout Clone
+# asciiportal                                              # asciiportal - Portal Clone
+# greed                                                    # greed - Breakout Clone
+# Dungeon Crawl Stone Soup
+# http://www.aardwolf.com/
+# http://www.achaea.com/main.php
+# http://www.avalon-rpg.com/
+# http://discworld.atuin.net/lpc/
+# http://www.middle-earth.us/
+# http://www.lusternia.com/
+# http://www.douglasadams.com/creations/infocomjava.html
+# http://www.infocom-if.org/downloads/downloads.html
+# robotfindskitten
+# Nethack
+# http://www.carrionfields.com
+
+
+# Terminal Visual Demos & Toys ################################################################################################################
+# asciiquarium                                             # ASCII Aquarium
+# cmatrix                                                  # ASCII Matrix Art
+# hollywood                                                # ASCII HackerLooking Art
+# cacafire                                                 # ASCII Fire
+# aafire                                                   # Simpler ASCII fire from the aalib package.
+# bb                                                       # ASCII Famous 3D art demo with music.
+# asciiview                                                # ASCII Art Viewer
+# pipes.sh                                                 # ASCII Pipe Art
+# pipes-c                                                  # ASCII Pipe Art
+# lolcat                                                   # figlet + cat
+# cowsay                                                   # Like cowsay, but with My Little Pony characters.
+# figlet                                                   # Gera banners ASCII no terminal.
+# nyancat                                                  # ASCII Nyancat
+# cbonsai                                                  # ASCII bonsai
+
 
 # Network an Internet ############################################################################################################################
+# Pidgin                                                   # Jabber Client
+# Lynx                                                     # text-mode web browser, supports the Gopher protocol
+# Thunderbird                                              # Thunderbird - Email Client
 sudo pacman -S --noconfirm syncthing                       # syncthing
+# transmission                                             # Transmission - Torrent Client
 # postman                                                  # API Testing
 # gitkraken                                                # Git Client
 # torbrowser-launcher                                      # Tor Browser
 # brave-bin                                                # Brave Browser
+# NextCloud
+# Librewolf                                                # Web Browser
+# Brave Browser                                            # Web Browser
+    # https://github.com/arkenfox/user.js/blob/master/user.js
+    # uBlock Origin
+    # Decentraleyes
+    # VimVixen
+    # I still don't care about cookies
+    # Stylus
+# TeamSpeak
+# Discord
+# Whatsapp
+# Signal
+# Telegram
 
 
 # System Tools ############################################################################################################################
-# Galculator                                               # Calculator
 sudo pacman -S --noconfirm bleachbit                       # Bleachbit - System Cleaner
 sudo pacman -S --noconfirm gnome-disk-utility              # gnome-disk-utility
 sudo pacman -S --noconfirm baobab                          # baobab
+# Galculator                                               # Calculator
+# HandBrake                                                # HandBrake - Video Converter
 
 
 # Editing #################################################################################################################################
-# Leafpad                                                  # Text Editor
 sudo pacman -S --noconfirm install Audacity	               # Audacity - Audio Editor
+# Sneedacity                                               # a replacement to Audacity which now includes telemetry
 sudo pacman -S --noconfirm natron	                       # Natron - Special Effects
 sudo pacman -S --noconfirm kdenlive                        # Kdenlive - Video Editor
 sudo pacman -S --noconfirm texlive-*                       # TeX Live - Text Editor and Latex
+# Leafpad                                                  # Text Editor
+# LMMS                                                     # LMMS - Music Editor
+# Rosegarden                                               # Rosegarden - Music Editor
 
 
 # Graphics ################################################################################################################################
-# KolourPaint                                              # Paint Program
-# Penpot                                                   # Canva's Like Program
-# krita                                                    # Krita - Paint Program
-# mypaint                                                  # MyPaint - Paint Program
-# fontforge                                                # Font Editor
 sudo pacman -S --noconfirm gimp                            # Gimp - Image Editor
 sudo pacman -S --noconfirm blender                         # Blender - 3d Modeling
 sudo pacman -S --noconfirm inkscape                        # Inkscape - Vector Graphics Editor
@@ -71,6 +127,12 @@ sudo pacman -S --noconfirm scribus                         # Scribus - Page Layo
 sudo pacman -S --noconfirm darktable-git                   # Darktable - Photo Editor
 sudo pacman -S --noconfirm drawio-desktop-bin              # Draw.io - Diagram Editor
 sudo pacman -S --noconfirm dia                             # Dia - Diagram Editor
+# KolourPaint                                              # Paint Program
+# Penpot                                                   # Canva's Like Program
+# krita                                                    # Krita - Paint Program
+# mypaint                                                  # MyPaint - Paint Program
+# fontforge                                                # Font Editor
+# QGIS
 
 
 # Dev #####################################################################################################################################
@@ -88,6 +150,7 @@ sudo pacman -S --noconfirm stremio                         # Stremio - Media Pla
 sudo pacman -S --noconfirm pimpmystremio-bin               # Local add-on manager for Stremio
 sudo pacman -S --noconfirm vlc                             # VLC - Media Player
 sudo pacman -S --noconfirm audacious                       # Audacious - Media Playerare
+# Lollypop                                                 # Lollypop - Music Player
 # cpod                                                     # Podcast Player
 # mpv                                                      # mpv - Media Player
 # handbrake                                                # Handbrake - Video Converter
@@ -214,3 +277,5 @@ sudo pacman -S --noconfirm ttf-sourcecodepro-nerd          # Source Code Pro Ner
 #     Launch Feedback -> .config/klaunchrc
 #     Font management -> .config/kfontinstuirc
 #     Splash screen -> .config/ksplashrc
+
+
