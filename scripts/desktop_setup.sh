@@ -1,22 +1,23 @@
 #!/bin/bash
 # A Desktop configuration script (manjaro linux)
-echo "A Desktop configuration script for Manjaro Linux"
+echo "A Desktop configuration script for an Arch-Based Linux"
 
 echo $pass | sudo -S pacman -Syyuu --noconfirm # Updating repositorys
 sudo pacman -S --noconfirm yay                 # An AUR helper to simplify installing AUR packages
 
+pacman -Ss lm_sensors
 
 # Terminal Monitors #########################################################################################################################
 sudo pacman -S --noconfirm htop                            # Htop - System Monitor
-# bpytop                                                   # Monitor de sistema moderno  (melhor UI que htop).
-# vtop                                                     # Monitor de sistema moderno  (melhor UI que htop).
-# glances                                                  # Monitor de sistema completo (CPU, RAM, redes, discos).
-# lm_sensors                                               # Monitoramento de temperatura e sensores.
-# ncdu                                                     # Análise de uso de disco via terminal.
-# nmap                                                     # Port Scanner
+sudo pacman -S --noconfirm bpytop                          # Monitor de sistema moderno  (melhor UI que htop).
+sudo pacman -S --noconfirm nvtop                           # Monitor de sistema moderno  (melhor UI que htop).
+sudo pacman -S --noconfirm glances                         # Monitor de sistema completo (CPU, RAM, redes, discos).
+sudo pacman -S --noconfirm lm_sensors                      # Monitoramento de temperatura e sensores.
+sudo pacman -S --noconfirm ncdu                            # Análise de uso de disco via terminal.
+sudo pacman -S --noconfirm nmap                            # Port Scanner
 
 
-# Terminal Tools ############################################################################################################################
+# Terminal Tools #########################################################################################################################
 sudo pacman -S --noconfirm neofetch                        # Neofetch - System Information
 # screenfetch                                              # Alternativa ao neofetch.
 # iperf3                                                   # Teste de velocidade de rede 
@@ -94,8 +95,8 @@ sudo pacman -S --noconfirm syncthing                       # syncthing
     # I still don't care about cookies
     # Stylus
 # TeamSpeak
-# Discord
-# Whatsapp
+sudo pacman -S --noconfirm discord
+# whatsapp
 # Signal
 # Telegram
 
@@ -127,12 +128,11 @@ sudo pacman -S --noconfirm scribus                         # Scribus - Page Layo
 sudo pacman -S --noconfirm darktable-git                   # Darktable - Photo Editor
 sudo pacman -S --noconfirm drawio-desktop-bin              # Draw.io - Diagram Editor
 sudo pacman -S --noconfirm dia                             # Dia - Diagram Editor
-# KolourPaint                                              # Paint Program
-# Penpot                                                   # Canva's Like Program
-# krita                                                    # Krita - Paint Program
-# mypaint                                                  # MyPaint - Paint Program
-# fontforge                                                # Font Editor
-# QGIS
+sudo pacman -S --noconfirm kolourpaint                     # Paint Program
+yay -S --noconfirm penpot-desktop-bin                      # Canva's Like Program
+sudo pacman -S --noconfirm krita                           # Krita - Paint Program
+sudo pacman -S --noconfirm fontforge                       # Font Editor
+sudo pacman -S --noconfirm qgis                            # Geographic Information System (GIS) 
 
 
 # Dev #####################################################################################################################################
@@ -245,7 +245,7 @@ sudo pacman -S --noconfirm ttf-roboto-mono-nerd            # Roboto Mono Nerd Fo
 sudo pacman -S --noconfirm ttf-sourcecodepro-nerd          # Source Code Pro Nerd Font
 ###########################################################################################################################################
 
-
+reboot
 # Installing Plasma Widgets
 # Whisker Menu Configuration
 # Panel Configuration
@@ -277,5 +277,4 @@ sudo pacman -S --noconfirm ttf-sourcecodepro-nerd          # Source Code Pro Ner
 #     Launch Feedback -> .config/klaunchrc
 #     Font management -> .config/kfontinstuirc
 #     Splash screen -> .config/ksplashrc
-
 
