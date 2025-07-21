@@ -5,7 +5,6 @@ Habilitar Efeitos Compostos e Transparencia no Kvantum
 
 Lembrar de Habilitar "Efeitos de Area de Trabalho"
 
-
 Check Compositor Settings → Go to System Settings → Display and Monitor → Compositor
 
 * Deixar Konsole Transparente
