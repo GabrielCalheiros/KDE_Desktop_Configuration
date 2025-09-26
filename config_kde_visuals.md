@@ -25,3 +25,6 @@ The to check out →  https://store.kde.org/p/1554642/ (Win11OS-dark Global Them
 
 syslogo - preto e branco
 mainlogo - colorida
+
+
+
