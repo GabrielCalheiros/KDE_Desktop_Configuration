@@ -9,8 +9,8 @@ echo " /_/    \\_\\ |_|  |_|\\__,_/_/\\_\\_|_| |_| |_|\\__,_|_|_|___/\\__| |____
 echo "                                                                                                                                        | |        ";
 echo "                                                                                                                                        |_|        ";
 
-# sudo pacman -Syu --noconfirm
-# yay -Syu --noconfirm
+sudo pacman -Syu --noconfirm
+yay -Syu --noconfirm
 
 # --- Colors ------------------------------------------------------------------
 RED='\033[0;31m'
@@ -71,12 +71,12 @@ install_category() {
 
 #🎬 Media ###################################################################################################################################
 media=(
-   "stremio                # Stremio - Media Player"
+   # "stremio                # Stremio - Media Player"
    "pimpmystremio-bin      # Local add-on manager for Stremio"
-   "vlc                    # VLC - Media Player"
+   "vlc-gui-qt             # VLC - Media Player"
    "audacious              # Audacious - Media Playerare"
    "lollypop               # Lollypop - Music Player"
-   "cpod                   # Podcast Player"
+   "cpod-appimage          # Podcast Player"
    "mpv                    # mpv - Media Player"
    "handbrake              # Handbrake - Video Converter"
    "obs-studio             # OBS Studio - Video Recorder"
@@ -96,13 +96,20 @@ system_tools=(
     "baobab                         # baobab"
     "galculator                     # Calculator"
     "handbrake                      # HandBrake - Video Converter"
+    "paru-bin                       # Paru - AUR Helper"
+    "cups                           # cups"
+    "hpipp                          # hplip"
+    "system-config-printer          # printer config"
+    "plasma-x11-session             # plasma x11 session"
+    "kvantum                        # para aplicar temas"
+    "kvantum-qt5                    # para aplicar temas"
+    "marble-maps                    # OpenStreetMap Navigation"
 )
 
 #📰 Feeds ###################################################################################################################################
 feeds=(
    "fluent-reader-bin              # Fluent Reader - RSS Reader"
-   "quiterss                       # QuiteRSS - RSS Reader (For General Porpuse)"
-   "transmission-gtk3              # Transmission - Torrent Client"
+   # "quiterss2-git                  # QuiteRSS - RSS Reader (For General Porpuse)"
 )
 
 #✍️ Fonts ###################################################################################################################################
@@ -320,7 +327,6 @@ fonts=(
    "robotfindskitten # Yet another Zen simulation"
    "toml-bombadil # Adotfile manager with templating"
    "ttf-indic-otf # Indic Opentype Fonts collection"
-   "# Chrome OS core fonts"
    "ttf-doulos-sil # Complete support for the International Phonetic Alphabet"
    "ttf-droid # General-purpose fonts released by Google as part of Android"
    "ttf-eurof # The original eurofurence font designed for headlines, signs, badges, inscriptions, et al."
@@ -339,7 +345,6 @@ fonts=(
 
 #🌐 Network an Internet ############################################################################################################################
 network_and_internet=(
-   "pidgin-mini                            # Jabber Client"
    "lynx                                   # Terminal Web Browser"
    "thunderbird-bin                        # Thunderbird - Email Client"
    "syncthing                              # syncthing"
@@ -347,13 +352,12 @@ network_and_internet=(
    "transmission-qt                        # Transmission - Torrent Client"
    "postman-bin                            # API Testing"
    "torbrowser-launcher                    # Tor Browser"
-   "brave-bin                              # Brave Browser"
    "nextcloud                              # A cloud server to store your files centrally on a hardware controlled by you"
-   "librewolf                              # Web Browser"
-   "teamSpeak                              # Software for quality voice communication via the Internet"
+   # "teamSpeak3                             # Software for quality voice communication via the Internet"
    "discord                                # Discord"
    "telegram-desktop                       # Telegram Desktop"
    "monero-gui                             # Monero - wallet for Monero"
+   # "librewolf-bin                          # Web Browser"
 )
 
 #🎨 Graphics ################################################################################################################################
@@ -362,13 +366,17 @@ graphics=(
    "blender                        # Blender - 3d Modeling"
    "inkscape                       # Inkscape - Vector Graphics Editor"
    "scribus                        # Scribus - Page Layout Program"
-   "darktable-git                  # Darktable - Photo Editor"
-   "drawio-desktop-bin             # Draw.io - Diagram Editor"
-   "dia                            # Dia - Diagram Editor"
+   # "darktable-git                  # Darktable - Photo Editor"
+   "drawio                         # Draw.io - Diagram Editor"
+   # "dia                            # Dia - Diagram Editor"
    "kolourpaint                    # Paint Program"
    "penpot-desktop-bin             # Canva's Like Program"
    "krita                          # Krita - Paint Program"
    "fontforge                      # Font Editor"
+   #"digikam                        # Photo Manager"
+   #"glaximate                      # 3D Animation Program"
+   #"tahoma2d                       # 2D Animation Program"
+   #"opentoonz                      # Animation Program"
 )
 
 #👨🏻‍💻 Dev #####################################################################################################################################
@@ -378,6 +386,12 @@ dev=(
    "filezilla                      # Filezilla"
    "dbeaver                        # Dbeaver"
    "vscodium-bin                   # Visual Studio Code"
+   "github-desktop-bin             # Github Client"
+   "npm                            # Node Package Manager"
+   "dotnet-runtime                 # .NET Runtime"
+   "dotnet-sdk                     # .NET SDK"
+   "rustup                         # Rust Toolchain"
+   "python                         # Python"
 )
 
 #📃 Office ##################################################################################################################################
@@ -394,6 +408,7 @@ terminal_monitors=(
    "lm_sensors                     # Monitoramento de temperatura e sensores."
    "ncdu                           # Análise de uso de disco via terminal."
    "nmap                           # Port Scanner"
+   "cli-visualizer                 #  A cli visualizer for audio (archived version)"
 )
 
 #🪚 Terminal Tools #########################################################################################################################
@@ -424,12 +439,42 @@ text_highlight_replacements=(
    "broot                                  # Directory tree with colors and navigation."
 )
 
-#🕹️ Terminal Games ##############################################################################################################################
-terminal_games=(
-   "bastet                                 # Bastet - Breakout Clone"
+#🕹️ Games ##############################################################################################################################
+games=(
+   # "bastet                                 # Bastet - Breakout Clone"
    "nsnake                                 # nsnake - Snake Clone"
    "robotfindskitten                       # Yet another Zen simulationl"
    "nethack                                # A single player dungeon exploration game"
+   "hydra-launcher-bin                     # Hydra Launcher"
+#    "umu-launcher                           # The Unified Launcher for Windows Games on Linux, to run Proton with fixes outside of Steam"
+#    "steam                                  # Steam - Game Launcher"
+   "mari0 # The Mario game with Portal gun mechanics"
+   "tali # Beat the odds in a poker-style dice game"
+   "glob2 # An innovative Real-Time Strategy game which reduces micro-management by automatically assigning tasks to units"
+   "kapman # A clone of the well known game Pac-Man"
+   "freeciv # A multiuser clone of the famous Microprose game of Civilization"
+   "bomber # A single player arcade game"
+   "freecol # A turn-based strategy game based on Colonization"
+   "kajongg # The ancient Chinese board game for 4 players"
+   "gbrainy # A brain teaser game and trainer to have fun and to keep your brain trained"
+   "katomic # A fun and educational game built around molecular geometry"
+   "barrage # A violent point-and-click shooting game with nice effects"
+   "simutrans # Transportation simulation game"
+   "granatier # A clone of the classic Bomberman game"
+   "freeorion # A turn-based space empire and galactic conquest game"
+   "widelands # A realtime strategy game with emphasis on economy and transport"
+   "palapeli # A single-player jigsaw puzzle game"
+   "kanagram # Letter Order Game"
+   "supertux # A classic 2D jump'n'run sidescroller game in a style similar to the original SuperMario games"
+   "dopewars # Turn based strategy game based on "Drug Wars" from 1984"
+   "blinken # Memory Enhancement Game"
+   "kubrick # Based on the famous Rubik's Cube"
+   "khangman # Hangman Game"
+   "openarena # A violent, sexy, multiplayer first person shooter based on the ioquake3 engine (binary package)"
+   "0ad # Cross-platform, 3D and historically-based real-time strategy game"
+   "endless-sky # A sandbox-style space exploration and combat game"
+   "openttd # Engine for running Transport Tycoon Deluxe"
+
 )
 
 #🖼️ Terminal Visual Demos & Toys ################################################################################################################
@@ -444,14 +489,14 @@ terminal_toys=(
 
 #✏️ Editing #################################################################################################################################
 editors=(
-   "Audacity	                   # Audacity - Audio Editor"
    "tenacity                       # An easy-to-use multi-track audio editor and recorder, forked from Audacity"
-   "natron	                       # Natron - Special Effects"
    "kdenlive                       # Kdenlive - Video Editor"
    "texlive                        # TeX Live - Text Editor and Latex"
-   "leafpad                        # Text Editor"
+   # "leafpad                        # Text Editor"
    "lmms                           # LMMS - Music Editor"
    "rosegarden                     # Rosegarden - Music Editor"
+   # "natron-bin                     # Natron - Special Effects"
+   # "friction                       # Vector Animation"
 )
 
 #👤 Social ##################################################################################################################################
@@ -461,30 +506,43 @@ social=(
    "telegram-desktop               # Telegram - Instant Messaging # Search how to install telegram Themes"
 )
 
-
 # ==================================================================
 #  Run Installations
 # ==================================================================
-install_category media "Media"
-install_category system_tools "System Tools"
-install_category feeds "Feed Readers"
-install_category network_and_internet "Network and Internet"
-install_category fonts "Fonts"
-install_category graphics "Graphics"
+
 install_category dev "Development"
-install_category office "Office"
+install_category system_tools "System Tools"
 install_category terminal_monitors "Terminal Monitors"
 install_category terminal_tools "Terminal Tools"
 install_category text_highlight_replacements "Text Highlight Replacements"
-install_category terminal_games "Terminal Games"
 install_category terminal_toys "Terminal Visual Demos & Toys"
+install_category network_and_internet "Network and Internet"
+install_category fonts "Fonts"
+install_category office "Office"
 install_category editors "Editors"
+install_category media "Media"
+install_category graphics "Graphics"
+install_category games "Games"
 install_category social "Social"
+install_category feeds "Feed Readers"
 
 # ==================================================================
 #  Post Installations
 # ==================================================================
-# Install extensions from vscode
+
+echo -e "${BOLD}==================================================================${RESET}"
+echo -e "${YELLOW}Enable Bluetooth Service...${RESET}"
+echo -e "${BOLD}==================================================================${RESET}"
+
+rfkill unblock bluetooth # Unblock Bluetooth
+sudo systemctl start bluetooth.service # Start Bluetooth service
+sudo systemctl enable bluetooth.service # Enable Bluetooth service to start on boot
+echo -e "\033[1;32mBluetooth has been enabled.\033[0m"
+
+# --- Install extensions from vscode ------------------------------------------------
+echo -e "${BOLD}==================================================================${RESET}"
+echo -e "${YELLOW}Installing extensions from vscode...${RESET}"
+echo -e "${BOLD}==================================================================${RESET}"
 codium --install-extension ms-python.python 
 codium --install-extension Codeium.codeium 
 codium --install-extension mikoz.autoflake-extension
@@ -500,6 +558,52 @@ codium --install-extension ms-python.isort
 codium --install-extension streetsidesoftware.code-spell-checker
 codium --install-extension streetsidesoftware.code-spell-checker-portuguese
 codium --install-extension streetsidesoftware.code-spell-checker-cspell-bundled-dictionaries
+codium --install-extension hediet.vscode-drawio
+codium --install-extension DavidAnson.vscode-markdownlint
+codium --install-extension GitHub.github-vscode-theme
+codium --install-extension GrapeCity.gc-excelviewer
+codium --install-extension hashicorp.terraform
+codium --install-extension hilleer.yaml-plus-json
+codium --install-extension jebbs.plantuml
+codium --install-extension jock.svg
+codium --install-extension johnpapa.vscode-peacock
+codium --install-extension mikestead.dotenv
+codium --install-extension redhat.vscode-yaml
+
+# --- Other Configs -------------------------------------------------------------
+echo -e "${BOLD}==================================================================${RESET}"
+echo -e "${YELLOW}Disabling firewall...${RESET}"
+echo -e "${YELLOW}Enabling cups...${RESET}"
+echo -e "${BOLD}==================================================================${RESET}"
+sudo systTemctl disable --now firewalld # Disable firewalld
+sudo systemctl enable --now cups.service
+
+# --- Aliases -----------------------------------------------------------------
+echo -e "${BOLD}==================================================================${RESET}"
+echo -e "${YELLOW}Setting up aliases...${RESET}"
+echo -e "${BOLD}==================================================================${RESET}"
+
+# Append aliases to ~/.bashrc or ~/.zshrc depending on your shell
+SHELL_RC="$HOME/.bashrc"
+[[ "$SHELL" == *zsh ]] && SHELL_RC="$HOME/.zshrc"
+
+{
+    echo ""
+    echo "# --- Custom Aliases ---"
+    echo "alias ls='exa --icons --group-directories-first'"
+    echo "alias ll='exa -l --icons --group-directories-first'"
+    echo "alias cat='bat'"
+    echo "alias find='fd'"
+    echo "alias grep='rg'"
+    echo "alias du='dust'"
+    echo "alias df='pydf'"
+    echo "alias top='procs'"
+    echo "alias ping='gping'"
+    echo "alias tree='broot'"
+} >> "$SHELL_RC"
+
+echo -e "${GREEN}✅ Aliases added to $SHELL_RC${RESET}"
+echo -e "${YELLOW}→ Reload your shell or run: source $SHELL_RC${RESET}"
 
 # ==================================================================
 #  Summary
@@ -516,3 +620,5 @@ fi
 #  Reboot
 # ===================================================================
 # reboot
+
+

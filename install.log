@@ -1,0 +1,97 @@
+ -> stremio-4.4.169-1 está atualizado -- pulando
+  não há nada a ser feito
+ -> pimpmystremio-bin-1.2.2-3 está atualizado -- pulando
+  não há nada a ser feito
+Sync Dependency (1): vlc-3.0.21-32
+atenção: vlc-3.0.21-32 está atualizado -- ignorando
+nada para fazer
+Sync Explicit (1): audacious-4.5.1-1
+atenção: audacious-4.5.1-1 está atualizado -- ignorando
+nada para fazer
+Sync Explicit (1): lollypop-1.4.44-1
+atenção: lollypop-1.4.44-1 está atualizado -- ignorando
+nada para fazer
+:: [1mExistem 2 provedores disponíveis para cpod:
+:: [1mRepositório AUR
+    [0m1) cpod-appimage 2) cpod-git [0m
+
+Digite um número (padrão=1): 
+1
+ -> cpod-appimage-1.28.0-3 está atualizado -- pulando
+  não há nada a ser feito
+Sync Dependency (1): mpv-1:0.40.0-7
+atenção: mpv-1:0.40.0-7 está atualizado -- ignorando
+nada para fazer
+Sync Explicit (1): handbrake-1.10.2-4
+atenção: handbrake-1.10.2-4 está atualizado -- ignorando
+nada para fazer
+Sync Explicit (1): obs-studio-32.0.2-2
+atenção: obs-studio-32.0.2-2 está atualizado -- ignorando
+nada para fazer
+Sync Explicit (1): yt-dlp-2025.12.08-1
+atenção: yt-dlp-2025.12.08-1 está atualizado -- ignorando
+nada para fazer
+Sync Explicit (1): gpodder-3.11.5-1
+atenção: gpodder-3.11.5-1 está atualizado -- ignorando
+nada para fazer
+Sync Explicit (1): okular-25.12.0-1
+atenção: okular-25.12.0-1 está atualizado -- ignorando
+nada para fazer
+Sync Explicit (1): pdfarranger-1.12.1-1
+atenção: pdfarranger-1.12.1-1 está atualizado -- ignorando
+nada para fazer
+Sync Explicit (1): xournalpp-1.3.0-1
+atenção: xournalpp-1.3.0-1 está atualizado -- ignorando
+nada para fazer
+Sync Explicit (1): cherrytree-1.6.2-2
+atenção: cherrytree-1.6.2-2 está atualizado -- ignorando
+nada para fazer
+Sync Explicit (1): zim-0.76.3-1
+atenção: zim-0.76.3-1 está atualizado -- ignorando
+nada para fazer
+Sync Explicit (1): bleachbit-5.0.2-1
+atenção: bleachbit-5.0.2-1 está atualizado -- ignorando
+nada para fazer
+Sync Explicit (1): gnome-disk-utility-46.1-2
+atenção: gnome-disk-utility-46.1-2 está atualizado -- ignorando
+nada para fazer
+Sync Explicit (1): baobab-49.1-1
+atenção: baobab-49.1-1 está atualizado -- ignorando
+nada para fazer
+Sync Explicit (1): galculator-2.1.4-10
+atenção: galculator-2.1.4-10 está atualizado -- ignorando
+nada para fazer
+Sync Explicit (1): handbrake-1.10.2-4
+atenção: handbrake-1.10.2-4 está atualizado -- ignorando
+nada para fazer
+ -> fluent-reader-bin-1.1.4-2 está atualizado -- pulando
+  não há nada a ser feito
+ -> transmission-gtk3-4.0.6-3 está atualizado -- pulando
+  não há nada a ser feito
+AUR Explicit (1): pidgin-mini-2.14.13-1
+:: [1mPKGBUILD atualizado, ignorando a transferência: pidgin-mini[0m
+  1 pidgin-mini                              (Arquivos de Build Existem)
+==> Limpar e construir quais pacotes?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+  1 pidgin-mini                              (Arquivos de Build Existem)
+==> Exibir diffs?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+==> Criando o pacote: pidgin-mini 2.14.13-1 (dom 21 dez 2025 20:23:27)
+==> Obtendo fontes...
+  -> Encontrado pidgin-2.14.13.tar.bz2
+==> ATENÇÃO: Ignorando verificação de assinaturas PGP de arquivo fonte.
+==> Validando source arquivos com sha256sums...
+    pidgin-2.14.13.tar.bz2 ... Passou
+:: [1m(1/1) Analisando SRCINFO: pidgin-mini[0m
+==> Criando o pacote: pidgin-mini 2.14.13-1 (dom 21 dez 2025 20:23:28)
+==> Verificando as dependências de tempo de execução...
+==> Verificando as dependências de tempo de compilação...
+==> Obtendo fontes...
+  -> Encontrado pidgin-2.14.13.tar.bz2
+==> Validando source arquivos com sha256sums...
+    pidgin-2.14.13.tar.bz2 ... Passou
+==> Removendo diretório $srcdir/ existente...
+==> Extraindo fontes...
+  -> Extraindo pidgin-2.14.13.tar.bz2 com bsdtar

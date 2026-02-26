@@ -1,3 +1,6 @@
+Configurar barra de tarefas
+
+Instalar Tema Global
 
 Selecionar tema Kvantum nas configurações do sistema
 
@@ -12,7 +15,6 @@ Settings → Edit Current Profile… → color editor window → Use transparent
 
 
 Search how to make Codium Transparent
-
 
 Telegram Theme → https://store.kde.org/p/2005260
 
