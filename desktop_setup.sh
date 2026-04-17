@@ -69,6 +69,30 @@ install_category() {
     done
 }
 
+# BR Localization ############################################################################################################################
+br_localization=(
+    "irpf                                  # Brazilian physical person income tax (IRPF) program"
+    "man-pages-pt_br                       # Brazilian Portuguese man pages"
+    "gimp-help-pt_br                       # Brazilian Portuguese help files for Gimp"
+    "rhvoice-language-brazilian-portuguese # Rhvoice brazilian-portuguese language"
+    "rhvoice-voice-leticia-f123            # Rhvoice leticia-f123 voice for brazilian-portuguese language"
+    "receitanet                            # Program for sending files to brazilian federal taxes agency"
+    "mythes-pt-br                          # Brazilian Portuguese thesaurus"
+    "ca-certificates-icp_br                # Brazilian government Certification Authorities"
+    "lcar                                  # Brazilian physical person income tax (IRPF) auxiliary program for getting rural activity results"
+    "gcap                                  # Brazilian physical person income tax (IRPF) auxiliary program for calculation of capital gains"
+    "funcoeszz                             # Brazilian script with 134 useful mini applications"
+    "mbrola                                # A phoneme-to-audio converter used by many TTS (Text-to-speech) programs"
+    "mbrola-voices-br1                     # A Brazilian Portuguese male voice for the MBROLA synthesizer"
+    "mbrola-voices-br2                     # A Brazilian Portuguese male voice for the MBROLA synthesizer"
+    "mbrola-voices-br3                     # A Brazilian Portuguese male voice for the MBROLA synthesizer"
+    "mbrola-voices-br4                     # A Brazilian Portoguese male voice for the MBROLA synthesizer"
+    "gespeaker                             # A GTK+ frontend for espeak and mbrola to speech the read text"
+    "otf-londrina                          # Handwriting font inspired from the streets of Sao Paulo, Brazil"
+    "correios-git                          # Golang client for some Brazilian Post Office (Correios) services"
+    "serpro-signer                         # Assinador Digital SERPRO : Aplicativo para geração e validação de assinaturas no padrão ICP-BRASIL"
+)
+
 #🎬 Media ###################################################################################################################################
 media=(
    # "stremio                # Stremio - Media Player"
@@ -88,30 +112,227 @@ media=(
    "cherrytree             # Notas hierárquicas com syntax highlight."
    "zim                    # Wiki desktop local."
 )
-
 #🛠️ System Tools ############################################################################################################################
 system_tools=(
-    "bleachbit                      # Bleachbit - System Cleaner"
-    "gnome-disk-utility             # gnome-disk-utility"
-    "baobab                         # baobab"
-    "galculator                     # Calculator"
-    "handbrake                      # HandBrake - Video Converter"
-    "paru-bin                       # Paru - AUR Helper"
-    "cups                           # cups"
-    "hpipp                          # hplip"
-    "system-config-printer          # printer config"
-    "plasma-x11-session             # plasma x11 session"
-    "kvantum                        # para aplicar temas"
-    "kvantum-qt5                    # para aplicar temas"
-    "marble-maps                    # OpenStreetMap Navigation"
+    "bleachbit                             # Bleachbit - System Cleaner"
+    "gnome-disk-utility                    # gnome-disk-utility"
+    "baobab                                # baobab"
+    "galculator                            # Calculator"
+    "handbrake                             # HandBrake - Video Converter"
+    "paru-bin                              # Paru - AUR Helper"
+    "cups                                  # cups"
+    "hpipp                                 # hplip"
+    "system-config-printer                 # printer config"
+    "plasma-x11-session                    # plasma x11 session"
+    "kvantum                               # para aplicar temas"
+    "kvantum-qt5                           # para aplicar temas"
+    "marble-maps                           # OpenStreetMap Navigation"
+    "ventoy-bin                            # Ventoy - Bootable USB Creator"
+    "rufus-linux                           # A Linux-native replica of the Rufus USB flashing utility"
 )
-
 #📰 Feeds ###################################################################################################################################
 feeds=(
-   "fluent-reader-bin              # Fluent Reader - RSS Reader"
-   # "quiterss2-git                  # QuiteRSS - RSS Reader (For General Porpuse)"
+   "fluent-reader-bin                      # Fluent Reader - RSS Reader"
+   # "quiterss2-git                        # QuiteRSS - RSS Reader (For General Porpuse)"
 )
+#🌐 Network an Internet ############################################################################################################################
+network_and_internet=(
+   "lynx                                   # Terminal Web Browser"
+   "thunderbird-bin                        # Thunderbird - Email Client"
+   "syncthing                              # syncthing"
+   "betterbird-bin                         # Thunderbird Email Reader but better"
+   "transmission-qt                        # Transmission - Torrent Client"
+   "postman-bin                            # API Testing"
+   "torbrowser-launcher                    # Tor Browser"
+   "nextcloud                              # A cloud server to store your files centrally on a hardware controlled by you"
+   # "teamSpeak3                             # Software for quality voice communication via the Internet"
+   "discord                                # Discord"
+   "telegram-desktop                       # Telegram Desktop"
+   "monero-gui                             # Monero - wallet for Monero"
+   "shortwave                              # Internet Radio Player"
+)
+#🎨 Graphics ################################################################################################################################
+graphics=(
+   "gimp                                   # Gimp - Image Editor"
+   "blender                                # Blender - 3d Modeling"
+   "inkscape                               # Inkscape - Vector Graphics Editor"
+   "scribus                                # Scribus - Page Layout Program"
+   "darktable                              # Darktable - Photo Editor"
+   "drawio                                 # Draw.io - Diagram Editor"
+   # "dia                                  # Dia - Diagram Editor"
+   "kolourpaint                            # Paint Program"
+   "penpot-desktop-bin                     # Canva's Like Program"
+   "krita                                  # Krita - Paint Program"
+   "fontforge                              # Font Editor"
+   "digikam                                # Photo Manager"
+   #"glaximate                             # 3D Animation Program"
+   #"tahoma2d                              # 2D Animation Program"
+   #"opentoonz                             # Animation Program"
+)
+#👨🏻‍💻 Dev #####################################################################################################################################
+dev=(
+   "mysql-workbench	                       # MySQL Workbench - database"
+   "mc                                     # Midnight Commander"
+   "filezilla                              # Filezilla"
+   "dbeaver                                # Dbeaver"
+   "vscodium-bin                           # Visual Studio Code"
+   "github-desktop-bin                     # Github Client"
+   "npm                                    # Node Package Manager"
+   "dotnet-runtime                         # .NET Runtime"
+   "dotnet-sdk                             # .NET SDK"
+   "rustup                                 # Rust Toolchain"
+   "python                                 # Python"
+)
+#📃 Office ##################################################################################################################################
+office=(
+   "onlyoffice-bin                         # OnlyOffice - office suite # Check the plugins for OnlyOffice"
+   "calibre                                # Calibre - Ebook management application"
+)
+#📊 Terminal Monitors #########################################################################################################################
+terminal_monitors=(
+   "htop                                   # Htop - System Monitor"
+   "bpytop                                 # Monitor de sistema moderno  (melhor UI que htop)."
+   "glances                                # Monitor de sistema completo (CPU, RAM, redes, discos)."
+   "lm_sensors                             # Monitoramento de temperatura e sensores."
+   "ncdu                                   # Análise de uso de disco via terminal."
+   "nmap                                   # Port Scanner"
+   "cli-visualizer                         # A cli visualizer for audio (archived version)"
+   "nvtop                                  # GPUs process monitoring for AMD, Intel and NVIDIA graphics cards"
+)
+#🪚 Terminal Tools #########################################################################################################################
+terminal_tools=(
+   "neofetch                               # Neofetch - System Information"
+   "screenfetch                            # Alternativa ao neofetch."
+   "iperf3                                 # Teste de velocidade de rede "
+   "mtr                                    # diagnosticar problemas de rede"
+   "ethtool                                # Configurações de interface de rede."
+   "openvpn                                # VPN Client"
+   "wireguard-tools                        # WireGuard Client"
+   "tmux                                   # Terminal Multiplexer"
+   "ranger                                 # Navegador de arquivos no terminal"
+   "ffmpeg                                 # FFMpeg - Video Converter"
+   "mc                                     # cross-platform orthodox file manager"
+)
+#🖥️ Text Highlight Replacements #################################################################################################################
+text_highlight_replacements=(
+   "exa                                    # ls aprimorado, colorido, tree view."
+   "bat                                    # cat aprimorado, com syntax highlight."
+   "ripgrep                                # Much faster, supports regex & highlights matches."
+   "fd                                     # Simpler and faster file finder with colorized output."
+   "dust                                   # A better du, a faster du, a more accurate du."
+   "pydf                                   # Python implementation of du, df, and duf"
+   "procs                                  # A better top, a faster top, a more accurate top"
+   "gping                                  # Ping with live graph display."
+   "broot                                  # Directory tree with colors and navigation."
+)
+#🕹️ Games ##############################################################################################################################
+games=(
+   "killbots                               # A simple game of evading killer robots"
+   "bsd-games                              # Linux port of the collection of BSD command line games"
+   "nsnake                                 # nsnake - Snake Clone"
+   "robotfindskitten                       # Yet another Zen simulationl"
+   "nethack                                # A single player dungeon exploration game"
+   "hydra-launcher-bin                     # Hydra Launcher"
+   "mari0                                  # The Mario game with Portal gun mechanics"
+   "tali                                   # Beat the odds in a poker-style dice game"
+   "glob2                                  # An innovative Real-Time Strategy game which reduces micro-management by automatically assigning tasks to units"
+   "kapman                                 # A clone of the well known game Pac-Man"
+   "freeciv                                # A multiuser clone of the famous Microprose game of Civilization"
+   "bomber                                 # A single player arcade game"
+   "kajongg                                # The ancient Chinese board game for 4 players"
+   "gbrainy                                # A brain teaser game and trainer to have fun and to keep your brain trained"
+   "katomic                                # A fun and educational game built around molecular geometry"
+   "barrage                                # A violent point-and-click shooting game with nice effects"
+   "simutrans                              # Transportation simulation game"
+   "granatier                              # A clone of the classic Bomberman game"
+   "freeorion                              # A turn-based space empire and galactic conquest game"
+   "widelands                              # A realtime strategy game with emphasis on economy and transport"
+   "palapeli                               # A single-player jigsaw puzzle game"
+   "kanagram                               # Letter Order Game"
+   "supertux                               # A classic 2D jump'n'run sidescroller game in a style similar to the original SuperMario games"
+   "dopewars                               # Turn based strategy game based on "Drug Wars" from 1984"
+   "blinken                                # Memory Enhancement Game"
+   "kubrick                                # Based on the famous Rubik's Cube"
+   "khangman                               # Hangman Game"
+   "openarena                              # A violent, sexy, multiplayer first person shooter based on the ioquake3 engine (binary package)"
+   "0ad                                    # Cross-platform, 3D and historically-based real-time strategy game"
+   "endless-sky                            # A sandbox-style space exploration and combat game"
+   "openttd                                # Engine for running Transport Tycoon Deluxe"
+   "picmi                                  # A nonogram logic game for KDE"
+   "bovo                                   # A Gomoku like game for two players"
+   "lskat                                  # Lieutenant Skat is a fun and engaging card game for two players"
+   "skladnik                               # An implementation of the Japanese warehouse keeper game Sokoban"
+   "knavalbattle # A ship sinking game"
+   "kfourinline # A four-in-a-row game"
+   "kgoldrunner # A game of action and puzzle solving"
+   "kspaceduel # Each of two possible players controls a satellite spaceship orbiting the sun"
+   "kjumpingcube # A simple tactical game"
+   "deadascend # A 2D point'n'click-like adventure game written in Qt/QML and Javascript"
 
+
+
+
+    "highscore-git # A rewrite of Highscore, formerly gnome-games"
+    "ktuberling # A simple constructor game suitable for children and adults alike"
+    "kpat # Offers a selection of solitaire card games"
+    "kshisen # A solitaire-like game played using the standard set of Mahjong tiles"
+    "ksirk # A computerized version of a well known strategy game"
+    "kiriki # An addictive and fun dice game"
+    "ksquares # A game modeled after the well known pen and paper based game of Dots and Boxes"
+    "kblackbox # A game of hide and seek played on a grid of boxes"
+    "kolf # A miniature golf game with 2d top-down view"
+    "kmahjongg # A tile matching game for one or two players"
+    "ksnakeduel # A simple snake duel game"
+    "kbounce # A single player arcade game with the elements of puzzle"
+    "kigo # An open-source implementation of the popular Go game"
+    "knights # Chess board by KDE with XBoard protocol support"
+    "klines # A simple but highly addictive one player game"
+    "ksudoku # A logic-based symbol placement puzzle"
+    "klickety # An adaptation of the Clickomania game"
+    "konquest # The KDE version of Gnu-Lactic"
+    "kollision # A simple ball dodging game"
+    "kbreakout # A Breakout-like game"
+    "kblocks # The classic falling blocks game"
+    "kmines # The classic Minesweeper game"
+    "kreversi # A simple one player strategy game played against the computer"
+    "kdiamond # A single player puzzle game"
+    "knetwalk # Connect all the terminals to the server, in as few turns as possible"
+    "kiriki # An addictive and fun dice game"
+
+
+    ##   "bastet                                 # Bastet - Breakout Clone"
+    ##   "umu-launcher                           # The Unified Launcher for Windows Games on Linux, to run Proton with fixes outside of Steam"
+    ##   "steam                                  # Steam - Game Launcher"
+
+)
+#🖼️ Terminal Visual Demos & Toys ################################################################################################################
+terminal_toys=(
+   "asciiquarium                           # ASCII Aquarium"
+   "cmatrix                                # ASCII Matrix Art"
+   "hollywood                              # ASCII HackerLooking Art"
+   "pipes.sh                               # ASCII Pipe Art"
+   "figlet                                 # Gera banners ASCII no terminal."
+   "cbonsai                                # ASCII bonsai"
+   "globe-cli                              # Globe CLI - World Map"
+)
+#✏️ Editing #################################################################################################################################
+editors=(
+   "tenacity                       # An easy-to-use multi-track audio editor and recorder, forked from Audacity"
+   "kdenlive                       # Kdenlive - Video Editor"
+   "texlive                        # TeX Live - Text Editor and Latex"
+   "lmms                           # LMMS - Music Editor"
+   "rosegarden                     # Rosegarden - Music Editor"
+   "natron-bin                     # Natron - Special Effects"
+   "friction                       # Vector Animation"
+   "davinci-resolve                # Video Editor"
+   "freecad-appimage               # A general purpose 3D CAD modeler (AppImage version)"
+)
+#👤 Social ##################################################################################################################################
+social=(
+   "signal-desktop                 # Signal - XMPP Messager"
+   "discord                        # Discord - All-in-one voice and text chat"
+   "telegram-desktop               # Telegram - Instant Messaging # Search how to install telegram Themes"
+)
 #✍️ Fonts ###################################################################################################################################
 fonts=(
    "otf-cascadia-code-nerd # Cascadia Code Nerd Font"
@@ -343,169 +564,6 @@ fonts=(
    "ttf-nunito # Sans serif font with rounded tips by Vernon Adams"
 )
 
-#🌐 Network an Internet ############################################################################################################################
-network_and_internet=(
-   "lynx                                   # Terminal Web Browser"
-   "thunderbird-bin                        # Thunderbird - Email Client"
-   "syncthing                              # syncthing"
-   "betterbird-bin                         # Thunderbird Email Reader but better"
-   "transmission-qt                        # Transmission - Torrent Client"
-   "postman-bin                            # API Testing"
-   "torbrowser-launcher                    # Tor Browser"
-   "nextcloud                              # A cloud server to store your files centrally on a hardware controlled by you"
-   # "teamSpeak3                             # Software for quality voice communication via the Internet"
-   "discord                                # Discord"
-   "telegram-desktop                       # Telegram Desktop"
-   "monero-gui                             # Monero - wallet for Monero"
-   # "librewolf-bin                          # Web Browser"
-)
-
-#🎨 Graphics ################################################################################################################################
-graphics=(
-   "gimp                           # Gimp - Image Editor"
-   "blender                        # Blender - 3d Modeling"
-   "inkscape                       # Inkscape - Vector Graphics Editor"
-   "scribus                        # Scribus - Page Layout Program"
-   # "darktable-git                  # Darktable - Photo Editor"
-   "drawio                         # Draw.io - Diagram Editor"
-   # "dia                            # Dia - Diagram Editor"
-   "kolourpaint                    # Paint Program"
-   "penpot-desktop-bin             # Canva's Like Program"
-   "krita                          # Krita - Paint Program"
-   "fontforge                      # Font Editor"
-   #"digikam                        # Photo Manager"
-   #"glaximate                      # 3D Animation Program"
-   #"tahoma2d                       # 2D Animation Program"
-   #"opentoonz                      # Animation Program"
-)
-
-#👨🏻‍💻 Dev #####################################################################################################################################
-dev=(
-   "mysql-workbench	              # MySQL Workbench - database"
-   "mc                             # Midnight Commander"
-   "filezilla                      # Filezilla"
-   "dbeaver                        # Dbeaver"
-   "vscodium-bin                   # Visual Studio Code"
-   "github-desktop-bin             # Github Client"
-   "npm                            # Node Package Manager"
-   "dotnet-runtime                 # .NET Runtime"
-   "dotnet-sdk                     # .NET SDK"
-   "rustup                         # Rust Toolchain"
-   "python                         # Python"
-)
-
-#📃 Office ##################################################################################################################################
-office=(
-   "onlyoffice-bin                 # OnlyOffice - office suite # Check the plugins for OnlyOffice"
-   "calibre                        # Calibre - Ebook management application"
-)
-
-#📊 Terminal Monitors #########################################################################################################################
-terminal_monitors=(
-   "htop                           # Htop - System Monitor"
-   "bpytop                         # Monitor de sistema moderno  (melhor UI que htop)."
-   "glances                        # Monitor de sistema completo (CPU, RAM, redes, discos)."
-   "lm_sensors                     # Monitoramento de temperatura e sensores."
-   "ncdu                           # Análise de uso de disco via terminal."
-   "nmap                           # Port Scanner"
-   "cli-visualizer                 #  A cli visualizer for audio (archived version)"
-)
-
-#🪚 Terminal Tools #########################################################################################################################
-terminal_tools=(
-   "neofetch                               # Neofetch - System Information"
-   "screenfetch                            # Alternativa ao neofetch."
-   "iperf3                                 # Teste de velocidade de rede "
-   "mtr                                    # diagnosticar problemas de rede"
-   "ethtool                                # Configurações de interface de rede."
-   "openvpn                                # VPN Client"
-   "wireguard-tools                        # WireGuard Client"
-   "tmux                                   # Terminal Multiplexer"
-   "ranger                                 # Navegador de arquivos no terminal"
-   "ffmpeg                                 # FFMpeg - Video Converter"
-   "mc                                     # cross-platform orthodox file manager"
-)
-
-#🖥️ Text Highlight Replacements #################################################################################################################
-text_highlight_replacements=(
-   "exa                                    # ls aprimorado, colorido, tree view."
-   "bat                                    # cat aprimorado, com syntax highlight."
-   "ripgrep                                # Much faster, supports regex & highlights matches."
-   "fd                                     # Simpler and faster file finder with colorized output."
-   "dust                                   # A better du, a faster du, a more accurate du."
-   "pydf                                   # Python implementation of du, df, and duf"
-   "procs                                  # A better top, a faster top, a more accurate top"
-   "gping                                  # Ping with live graph display."
-   "broot                                  # Directory tree with colors and navigation."
-)
-
-#🕹️ Games ##############################################################################################################################
-games=(
-   # "bastet                                 # Bastet - Breakout Clone"
-   "nsnake                                 # nsnake - Snake Clone"
-   "robotfindskitten                       # Yet another Zen simulationl"
-   "nethack                                # A single player dungeon exploration game"
-   "hydra-launcher-bin                     # Hydra Launcher"
-#    "umu-launcher                           # The Unified Launcher for Windows Games on Linux, to run Proton with fixes outside of Steam"
-#    "steam                                  # Steam - Game Launcher"
-   "mari0 # The Mario game with Portal gun mechanics"
-   "tali # Beat the odds in a poker-style dice game"
-   "glob2 # An innovative Real-Time Strategy game which reduces micro-management by automatically assigning tasks to units"
-   "kapman # A clone of the well known game Pac-Man"
-   "freeciv # A multiuser clone of the famous Microprose game of Civilization"
-   "bomber # A single player arcade game"
-   "freecol # A turn-based strategy game based on Colonization"
-   "kajongg # The ancient Chinese board game for 4 players"
-   "gbrainy # A brain teaser game and trainer to have fun and to keep your brain trained"
-   "katomic # A fun and educational game built around molecular geometry"
-   "barrage # A violent point-and-click shooting game with nice effects"
-   "simutrans # Transportation simulation game"
-   "granatier # A clone of the classic Bomberman game"
-   "freeorion # A turn-based space empire and galactic conquest game"
-   "widelands # A realtime strategy game with emphasis on economy and transport"
-   "palapeli # A single-player jigsaw puzzle game"
-   "kanagram # Letter Order Game"
-   "supertux # A classic 2D jump'n'run sidescroller game in a style similar to the original SuperMario games"
-   "dopewars # Turn based strategy game based on "Drug Wars" from 1984"
-   "blinken # Memory Enhancement Game"
-   "kubrick # Based on the famous Rubik's Cube"
-   "khangman # Hangman Game"
-   "openarena # A violent, sexy, multiplayer first person shooter based on the ioquake3 engine (binary package)"
-   "0ad # Cross-platform, 3D and historically-based real-time strategy game"
-   "endless-sky # A sandbox-style space exploration and combat game"
-   "openttd # Engine for running Transport Tycoon Deluxe"
-
-)
-
-#🖼️ Terminal Visual Demos & Toys ################################################################################################################
-terminal_toys=(
-   "asciiquarium                           # ASCII Aquarium"
-   "cmatrix                                # ASCII Matrix Art"
-   "hollywood                              # ASCII HackerLooking Art"
-   "pipes.sh                               # ASCII Pipe Art"
-   "figlet                                 # Gera banners ASCII no terminal."
-   "cbonsai                                # ASCII bonsai"
-)
-
-#✏️ Editing #################################################################################################################################
-editors=(
-   "tenacity                       # An easy-to-use multi-track audio editor and recorder, forked from Audacity"
-   "kdenlive                       # Kdenlive - Video Editor"
-   "texlive                        # TeX Live - Text Editor and Latex"
-   # "leafpad                        # Text Editor"
-   "lmms                           # LMMS - Music Editor"
-   "rosegarden                     # Rosegarden - Music Editor"
-   # "natron-bin                     # Natron - Special Effects"
-   # "friction                       # Vector Animation"
-)
-
-#👤 Social ##################################################################################################################################
-social=(
-   "signal-desktop                 # Signal - XMPP Messager"
-   "discord                        # Discord - All-in-one voice and text chat"
-   "telegram-desktop               # Telegram - Instant Messaging # Search how to install telegram Themes"
-)
-
 # ==================================================================
 #  Run Installations
 # ==================================================================
@@ -525,6 +583,7 @@ install_category graphics "Graphics"
 install_category games "Games"
 install_category social "Social"
 install_category feeds "Feed Readers"
+install_category br_localization "BR Localization"
 
 # ==================================================================
 #  Post Installations
