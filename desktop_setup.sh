@@ -285,7 +285,17 @@ games=(
    "0verkill-git                           # Bloody 2D action deathmatch-like game in ASCII-ART"
    "kshisen                                # A solitaire-like game played using the standard set of Mahjong tiles"
    "kblocks                                # The classic falling blocks game"
-
+   "pioneer                                # A game of lonely space adventure"
+   "zelda-roth                             # Zelda: Return of the Hylian is a fan-made Zelda Game (english version)"
+   "openrct2                               # Open source re-implementation of Roller Coaster Tycoon 2"
+   "citybound-bin                          # A city building game that uses microscopic models to vividly simulate the organism of a city arising from the interactions of millions of individuals."
+   "julius                                 # An enhanced re-implementation of Caesar III"
+   "micropolis-java                        # Micropolis, Unix version of SimCity 1 rewrited in Java"
+   "anarch-git                             # Anarch, the suckless FPS game"
+   "assaultCube-reloaded                   # AssaultCube Reloaded"
+   "avp                                    # Alien Versus Predator Gold engine"
+   "mindustry-bin                          # A sandbox tower defense game written in Java"
+   "openra                                 # An open-source implementation of the Red Alert engine using .NET/Mono and OpenGL
 
 
    "highscore-git # A rewrite of Highscore, formerly gnome-games"
