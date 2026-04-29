@@ -31,7 +31,7 @@ FAILED_LOG="$SCRIPT_DIR/failed.log"
 install_pkg() {
     local pkg="$1"
     echo -e "${BLUE}Installing:${RESET} $pkg ..."
-    
+
     # Capture both output and exit code properly
     output_file=$(mktemp)
     if yay -S --noconfirm --needed "$pkg" 2>&1 | tee -a "$INSTALL_LOG" | tee "$output_file"; then
@@ -129,6 +129,12 @@ system_tools=(
     "marble-maps                           # OpenStreetMap Navigation"
     "ventoy-bin                            # Ventoy - Bootable USB Creator"
     "rufus-linux                           # A Linux-native replica of the Rufus USB flashing utility"
+
+
+    
+    "jp2a                                   # Convert images to ASCII"
+    "chafa                                  # High-quality terminal image viewer"
+    "img2txt                                # Image to ASCII (caca-utils)"
 )
 #📰 Feeds ###################################################################################################################################
 feeds=(
@@ -159,15 +165,13 @@ graphics=(
    "scribus                                # Scribus - Page Layout Program"
    "darktable                              # Darktable - Photo Editor"
    "drawio                                 # Draw.io - Diagram Editor"
-   # "dia                                  # Dia - Diagram Editor"
    "kolourpaint                            # Paint Program"
    "penpot-desktop-bin                     # Canva's Like Program"
    "krita                                  # Krita - Paint Program"
    "fontforge                              # Font Editor"
    "digikam                                # Photo Manager"
    #"glaximate                             # 3D Animation Program"
-   #"tahoma2d                              # 2D Animation Program"
-   #"opentoonz                             # Animation Program"
+
 )
 #👨🏻‍💻 Dev #####################################################################################################################################
 dev=(
@@ -295,30 +299,32 @@ games=(
    "assaultCube-reloaded                   # AssaultCube Reloaded"
    "avp                                    # Alien Versus Predator Gold engine"
    "mindustry-bin                          # A sandbox tower defense game written in Java"
-   "openra                                 # An open-source implementation of the Red Alert engine using .NET/Mono and OpenGL
+   "openra                                 # An open-source implementation of the Red Alert engine using .NET/Mono and OpenGL"
+   "warzone2100                            # 3D realtime strategy game on a future Earth"
+   "openmw                                 # Open-source engine reimplementation for the role-playing game Morrowind"
+   "daggerfall-unity-bin                   # The Elder Scrolls: Daggerfall rebuilt using the unity engine"
+   "kpat                                   # Offers a selection of solitaire card games"
+   "kiriki                                 # An addictive and fun dice game"
+   "ksquares                               # A game modeled after the well known pen and paper based game of Dots and Boxes"
+   "nethack                                # A single player dungeon exploration game"
+   "exult                                  # A project to recreate Ultima 7 for modern operating systems"
+   "kblackbox                              # A game of hide and seek played on a grid of boxes"
+   "kolf                                   # A miniature golf game with 2d top-down view"
+   "kmahjongg                              # A tile matching game for one or two players"
+   "ksnakeduel                             # A simple snake duel game"
+   "kigo                                   # An open-source implementation of the popular Go game"
+   "klines                                 # A simple but highly addictive one player game"
+   "ksudoku                                # A logic-based symbol placement puzzle"
+   "klickety                               # An adaptation of the Clickomania game"
+   "kbreakout                              # A Breakout-like game"
+   "kmines                                 # The classic Minesweeper game"
+   "kreversi                               # A simple one player strategy game played against the computer"
+   "kdiamond                               # A single player puzzle game"
+   "knetwalk                               # Connect all the terminals to the server, in as few turns as possible"
+   "bastet                                 # Bastet - Breakout Clone"
+   "anarch-git                             # Anarch, the suckless FPS game"
 
 
-   "highscore-git # A rewrite of Highscore, formerly gnome-games"
-   "kpat # Offers a selection of solitaire card games"
-   "kiriki # An addictive and fun dice game"
-   "ksquares # A game modeled after the well known pen and paper based game of Dots and Boxes"
-   "kblackbox # A game of hide and seek played on a grid of boxes"
-   "kolf # A miniature golf game with 2d top-down view"
-   "kmahjongg # A tile matching game for one or two players"
-   "ksnakeduel # A simple snake duel game"
-   "kigo # An open-source implementation of the popular Go game"
-   "klines # A simple but highly addictive one player game"
-   "ksudoku # A logic-based symbol placement puzzle"
-   "klickety # An adaptation of the Clickomania game"
-   "kbreakout # A Breakout-like game"
-   "kmines # The classic Minesweeper game"
-   "kreversi # A simple one player strategy game played against the computer"
-   "kdiamond # A single player puzzle game"
-   "knetwalk # Connect all the terminals to the server, in as few turns as possible"
-   "kiriki # An addictive and fun dice game"
-
-
-    ##   "bastet                                 # Bastet - Breakout Clone"
     ##   "umu-launcher                           # The Unified Launcher for Windows Games on Linux, to run Proton with fixes outside of Steam"
     ##   "steam                                  # Steam - Game Launcher"
 
@@ -332,6 +338,12 @@ terminal_toys=(
    "figlet                                 # Gera banners ASCII no terminal."
    "cbonsai                                # ASCII bonsai"
    "globe-cli                              # Globe CLI - World Map"
+   "oneko                                  # A cat that chases around your cursor"
+   "tty-clock                              # Digital clock in ncurses"
+   "peaclock                               # A colourful binary clock for the terminal"
+   "bb                                     # AA-lib demo (oldschool graphics)"
+   "wttr.in                                # Curl-based weather display"
+   "nyancat                                # Nyan Cat animation"
 )
 #✏️ Editing #################################################################################################################################
 editors=(
@@ -620,8 +632,8 @@ echo -e "\033[1;32mBluetooth has been enabled.\033[0m"
 echo -e "${BOLD}==================================================================${RESET}"
 echo -e "${YELLOW}Installing extensions from vscode...${RESET}"
 echo -e "${BOLD}==================================================================${RESET}"
-codium --install-extension ms-python.python 
-codium --install-extension Codeium.codeium 
+codium --install-extension ms-python.python
+codium --install-extension Codeium.codeium
 codium --install-extension mikoz.autoflake-extension
 codium --install-extension cstrap.flask-snippets
 codium --install-extension wholroyd.jinja
@@ -697,5 +709,4 @@ fi
 #  Reboot
 # ===================================================================
 # reboot
-
 
