@@ -9,8 +9,8 @@ echo " /_/    \\_\\ |_|  |_|\\__,_/_/\\_\\_|_| |_| |_|\\__,_|_|_|___/\\__| |____
 echo "                                                                                                                                        | |        ";
 echo "                                                                                                                                        |_|        ";
 
-sudo pacman -Syu --noconfirm
-yay -Syu --noconfirm
+# sudo pacman -Syu --noconfirm
+# yay -Syu --noconfirm
 
 # --- Colors ------------------------------------------------------------------
 RED='\033[0;31m'
@@ -130,8 +130,15 @@ system_tools=(
     "ventoy-bin                            # Ventoy - Bootable USB Creator"
     "rufus-linux                           # A Linux-native replica of the Rufus USB flashing utility"
 
+    "pdfmixtool                            # Application to split, merge, rotate and mix PDF files"
+    "masterpdfeditor                       # A complete solution for viewing, creating and editing PDF files"
+    "tuxguitar                             # A multitrack guitar tablature editor and player"
+    "musescore                             # Create, play and print beautiful sheet music"
+    "celestia                              # Real-time space simulation"
 
-    
+
+
+
     "jp2a                                   # Convert images to ASCII"
     "chafa                                  # High-quality terminal image viewer"
     "img2txt                                # Image to ASCII (caca-utils)"
@@ -598,22 +605,22 @@ fonts=(
 #  Run Installations
 # ==================================================================
 
-install_category dev "Development"
+# install_category dev "Development"
 install_category system_tools "System Tools"
-install_category terminal_monitors "Terminal Monitors"
-install_category terminal_tools "Terminal Tools"
-install_category text_highlight_replacements "Text Highlight Replacements"
-install_category terminal_toys "Terminal Visual Demos & Toys"
-install_category network_and_internet "Network and Internet"
-install_category fonts "Fonts"
-install_category office "Office"
-install_category editors "Editors"
-install_category media "Media"
-install_category graphics "Graphics"
-install_category games "Games"
-install_category social "Social"
-install_category feeds "Feed Readers"
-install_category br_localization "BR Localization"
+# install_category terminal_monitors "Terminal Monitors"
+# install_category terminal_tools "Terminal Tools"
+# install_category text_highlight_replacements "Text Highlight Replacements"
+# install_category terminal_toys "Terminal Visual Demos & Toys"
+# install_category network_and_internet "Network and Internet"
+# install_category fonts "Fonts"
+# install_category office "Office"
+# install_category editors "Editors"
+# install_category media "Media"
+# install_category graphics "Graphics"
+# install_category games "Games"
+# install_category social "Social"
+# install_category feeds "Feed Readers"
+# install_category br_localization "BR Localization"
 
 # ==================================================================
 #  Post Installations

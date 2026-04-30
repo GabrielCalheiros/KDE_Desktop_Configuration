@@ -1,0 +1,1566 @@
+Sync Explicit (1): bleachbit-6.0.0-1
+sudo: tempo limite esgotado lendo senha
+sudo: uma senha é necessária
+ -> error installing repo packages
+Sync Explicit (1): gnome-disk-utility-46.1-2
+atenção: gnome-disk-utility-46.1-2 está atualizado -- ignorando
+nada para fazer
+Sync Explicit (1): baobab-50.0-1
+atenção: baobab-50.0-1 está atualizado -- ignorando
+nada para fazer
+Sync Explicit (1): galculator-2.1.4-10
+atenção: galculator-2.1.4-10 está atualizado -- ignorando
+nada para fazer
+Sync Explicit (1): handbrake-1.11.1-1
+atenção: handbrake-1.11.1-1 está atualizado -- ignorando
+nada para fazer
+ -> paru-bin-2.1.0-1 está atualizado -- pulando
+  não há nada a ser feito
+Sync Explicit (1): cups-2:2.4.19-1
+atenção: cups-2:2.4.19-1 está atualizado -- ignorando
+nada para fazer
+ -> Nenhum pacote AUR localizado para hpipp
+  não há nada a ser feito
+Sync Explicit (1): system-config-printer-1.5.18-6
+atenção: system-config-printer-1.5.18-6 está atualizado -- ignorando
+nada para fazer
+Sync Explicit (1): plasma-x11-session-6.6.4-1
+atenção: plasma-x11-session-6.6.4-1 está atualizado -- ignorando
+nada para fazer
+Sync Explicit (1): kvantum-1.1.6-1
+atenção: kvantum-1.1.6-1 está atualizado -- ignorando
+nada para fazer
+Sync Explicit (1): kvantum-qt5-1.1.6-1
+atenção: kvantum-qt5-1.1.6-1 está atualizado -- ignorando
+nada para fazer
+Sync Explicit (1): marble-maps-26.04.0-1
+atenção: marble-maps-26.04.0-1 está atualizado -- ignorando
+nada para fazer
+ -> ventoy-bin-1.1.12-1 está atualizado -- pulando
+  não há nada a ser feito
+ -> rufus-linux-3.20.1929-1 está atualizado -- pulando
+  não há nada a ser feito
+Sync Explicit (1): pdfmixtool-1.2.2-1
+atenção: pdfmixtool-1.2.2-1 está atualizado -- ignorando
+nada para fazer
+ -> masterpdfeditor-5.9.98-2 está atualizado -- pulando
+  não há nada a ser feito
+ -> tuxguitar-2.0.1-1 está atualizado -- pulando
+  não há nada a ser feito
+Sync Explicit (1): musescore-4.6.5-1
+resolvendo dependências...
+procurando pacotes conflitantes...
+:: musescore-4.6.5-1 e musescore-bin-4.6.5-1 estão em conflito. Remover musescore-bin? [s/N] erro: conflito de pacotes não solucionável detectado
+erro: falha ao preparar a transação (dependências conflitantes)
+
+:: musescore-4.6.5-1 e musescore-bin-4.6.5-1 estão em conflito
+ -> error installing repo packages
+ -> celestia-1.6.4-4 está atualizado -- pulando
+  não há nada a ser feito
+AUR Explicit (1): celestia-addon-spitzer_space_telescope-1-2
+:: [1m(1/1) PKGBUILD transferido: celestia-addon-spitzer_space_telescope[0m
+  1 celestia-addon-spitzer_space_telescope   (Arquivos de Build Existem)
+==> Limpar e construir quais pacotes?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+  1 celestia-addon-spitzer_space_telescope   (Arquivos de Build Existem)
+==> Exibir diffs?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+==> Criando o pacote: celestia-addon-spitzer_space_telescope 1-2 (qui 30 abr 2026 10:58:37)
+==> Obtendo fontes...
+  -> Baixando spitzermodel.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://celestiamotherlode.net/creators/jackhiggins/spitzermodel.zip
+    Abortando...
+ -> erro ao descarregar as fontes: /home/gabrielcalheiros/.cache/yay/celestia-addon-spitzer_space_telescope 
+	 context: exit status 1 
+	 
+
+:: [1m(1/1) Analisando SRCINFO: celestia-addon-spitzer_space_telescope[0m
+==> Criando o pacote: celestia-addon-spitzer_space_telescope 1-2 (qui 30 abr 2026 10:58:39)
+==> Verificando as dependências de tempo de execução...
+==> Verificando as dependências de tempo de compilação...
+==> Obtendo fontes...
+  -> Baixando spitzermodel.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://celestiamotherlode.net/creators/jackhiggins/spitzermodel.zip
+    Abortando...
+ -> erro ao construir: celestia-addon-spitzer_space_telescope-exit status 1
+ -> Falha ao instalar os seguintes pacotes. É necessária a intervenção manual:
+celestia-addon-spitzer_space_telescope - exit status 1
+AUR Explicit (1): celestia-addon-deep_impact_spacecraft-1-3
+:: [1m(1/1) PKGBUILD transferido: celestia-addon-deep_impact_spacecraft[0m
+  1 celestia-addon-deep_impact_spacecraft    (Arquivos de Build Existem)
+==> Limpar e construir quais pacotes?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+  1 celestia-addon-deep_impact_spacecraft    (Arquivos de Build Existem)
+==> Exibir diffs?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+==> Criando o pacote: celestia-addon-deep_impact_spacecraft 1-3 (qui 30 abr 2026 10:58:42)
+==> Obtendo fontes...
+  -> Baixando deepimpact_impactormodel.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://celestiamotherlode.net/creators/jackhiggins/deepimpact_impactormodel.zip
+    Abortando...
+ -> erro ao descarregar as fontes: /home/gabrielcalheiros/.cache/yay/celestia-addon-deep_impact_spacecraft 
+	 context: exit status 1 
+	 
+
+:: [1m(1/1) Analisando SRCINFO: celestia-addon-deep_impact_spacecraft[0m
+==> Criando o pacote: celestia-addon-deep_impact_spacecraft 1-3 (qui 30 abr 2026 10:58:43)
+==> Verificando as dependências de tempo de execução...
+==> Verificando as dependências de tempo de compilação...
+==> Obtendo fontes...
+  -> Baixando deepimpact_impactormodel.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://celestiamotherlode.net/creators/jackhiggins/deepimpact_impactormodel.zip
+    Abortando...
+ -> erro ao construir: celestia-addon-deep_impact_spacecraft-exit status 1
+ -> Falha ao instalar os seguintes pacotes. É necessária a intervenção manual:
+celestia-addon-deep_impact_spacecraft - exit status 1
+AUR Explicit (1): celestia-addon-tatooine_endor_deathstar-1.1-2
+:: [1m(1/1) PKGBUILD transferido: celestia-addon-tatooine_endor_deathstar[0m
+  1 celestia-addon-tatooine_endor_deathstar  (Arquivos de Build Existem)
+==> Limpar e construir quais pacotes?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+  1 celestia-addon-tatooine_endor_deathstar  (Arquivos de Build Existem)
+==> Exibir diffs?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+==> Criando o pacote: celestia-addon-tatooine_endor_deathstar 1.1-2 (qui 30 abr 2026 10:58:47)
+==> Obtendo fontes...
+  -> Baixando StarWars_upd.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'www.celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://www.celestiamotherlode.net/creators/jestr/StarWars_upd.zip
+    Abortando...
+ -> erro ao descarregar as fontes: /home/gabrielcalheiros/.cache/yay/celestia-addon-tatooine_endor_deathstar 
+	 context: exit status 1 
+	 
+
+:: [1m(1/1) Analisando SRCINFO: celestia-addon-tatooine_endor_deathstar[0m
+==> Criando o pacote: celestia-addon-tatooine_endor_deathstar 1.1-2 (qui 30 abr 2026 10:58:48)
+==> Verificando as dependências de tempo de execução...
+==> Verificando as dependências de tempo de compilação...
+==> Obtendo fontes...
+  -> Baixando StarWars_upd.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'www.celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://www.celestiamotherlode.net/creators/jestr/StarWars_upd.zip
+    Abortando...
+ -> erro ao construir: celestia-addon-tatooine_endor_deathstar-exit status 1
+ -> Falha ao instalar os seguintes pacotes. É necessária a intervenção manual:
+celestia-addon-tatooine_endor_deathstar - exit status 1
+AUR Explicit (1): celestia-addon-global_water_volume-1.0-2
+:: [1m(1/1) PKGBUILD transferido: celestia-addon-global_water_volume[0m
+  1 celestia-addon-global_water_volume       (Arquivos de Build Existem)
+==> Limpar e construir quais pacotes?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+  1 celestia-addon-global_water_volume       (Arquivos de Build Existem)
+==> Exibir diffs?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+==> Criando o pacote: celestia-addon-global_water_volume 1.0-2 (qui 30 abr 2026 10:58:52)
+==> Obtendo fontes...
+  -> Baixando GlobalWaterVolume.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'www.celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://www.celestiamotherlode.net/creators/particlegrasp/GlobalWaterVolume.zip
+    Abortando...
+ -> erro ao descarregar as fontes: /home/gabrielcalheiros/.cache/yay/celestia-addon-global_water_volume 
+	 context: exit status 1 
+	 
+
+:: [1m(1/1) Analisando SRCINFO: celestia-addon-global_water_volume[0m
+==> Criando o pacote: celestia-addon-global_water_volume 1.0-2 (qui 30 abr 2026 10:58:53)
+==> Verificando as dependências de tempo de execução...
+==> Verificando as dependências de tempo de compilação...
+==> Obtendo fontes...
+  -> Baixando GlobalWaterVolume.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'www.celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://www.celestiamotherlode.net/creators/particlegrasp/GlobalWaterVolume.zip
+    Abortando...
+ -> erro ao construir: celestia-addon-global_water_volume-exit status 1
+ -> Falha ao instalar os seguintes pacotes. É necessária a intervenção manual:
+celestia-addon-global_water_volume - exit status 1
+AUR Explicit (1): celestia-addon-international_space_station-1-2
+:: [1m(1/1) PKGBUILD transferido: celestia-addon-international_space_station[0m
+  1 celestia-addon-international_space_station (Arquivos de Build Existem)
+==> Limpar e construir quais pacotes?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+  1 celestia-addon-international_space_station (Arquivos de Build Existem)
+==> Exibir diffs?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+==> Criando o pacote: celestia-addon-international_space_station 1-2 (qui 30 abr 2026 10:58:57)
+==> Obtendo fontes...
+  -> Baixando isstextures.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'www.celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://www.celestiamotherlode.net/creators/orion_nebula/isstextures.zip
+    Abortando...
+ -> erro ao descarregar as fontes: /home/gabrielcalheiros/.cache/yay/celestia-addon-international_space_station 
+	 context: exit status 1 
+	 
+
+:: [1m(1/1) Analisando SRCINFO: celestia-addon-international_space_station[0m
+==> Criando o pacote: celestia-addon-international_space_station 1-2 (qui 30 abr 2026 10:58:58)
+==> Verificando as dependências de tempo de execução...
+==> Verificando as dependências de tempo de compilação...
+==> Obtendo fontes...
+  -> Baixando isstextures.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'www.celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://www.celestiamotherlode.net/creators/orion_nebula/isstextures.zip
+    Abortando...
+ -> erro ao construir: celestia-addon-international_space_station-exit status 1
+ -> Falha ao instalar os seguintes pacotes. É necessária a intervenção manual:
+celestia-addon-international_space_station - exit status 1
+AUR Explicit (1): celestia-addon-hubble_space_telescope-1-2
+:: [1m(1/1) PKGBUILD transferido: celestia-addon-hubble_space_telescope[0m
+  1 celestia-addon-hubble_space_telescope    (Arquivos de Build Existem)
+==> Limpar e construir quais pacotes?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+  1 celestia-addon-hubble_space_telescope    (Arquivos de Build Existem)
+==> Exibir diffs?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+==> Criando o pacote: celestia-addon-hubble_space_telescope 1-2 (qui 30 abr 2026 10:59:02)
+==> Obtendo fontes...
+  -> Baixando BigHubbleCMOD_V3.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://celestiamotherlode.net/creators/jestr/BigHubbleCMOD_V3.zip
+    Abortando...
+ -> erro ao descarregar as fontes: /home/gabrielcalheiros/.cache/yay/celestia-addon-hubble_space_telescope 
+	 context: exit status 1 
+	 
+
+:: [1m(1/1) Analisando SRCINFO: celestia-addon-hubble_space_telescope[0m
+==> Criando o pacote: celestia-addon-hubble_space_telescope 1-2 (qui 30 abr 2026 10:59:03)
+==> Verificando as dependências de tempo de execução...
+==> Verificando as dependências de tempo de compilação...
+==> Obtendo fontes...
+  -> Baixando BigHubbleCMOD_V3.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://celestiamotherlode.net/creators/jestr/BigHubbleCMOD_V3.zip
+    Abortando...
+ -> erro ao construir: celestia-addon-hubble_space_telescope-exit status 1
+ -> Falha ao instalar os seguintes pacotes. É necessária a intervenção manual:
+celestia-addon-hubble_space_telescope - exit status 1
+AUR Explicit (1): celestia-addon-2010_exoplanets_ii-1.0-2
+:: [1m(1/1) PKGBUILD transferido: celestia-addon-2010_exoplanets_ii[0m
+  1 celestia-addon-2010_exoplanets_ii        (Arquivos de Build Existem)
+==> Limpar e construir quais pacotes?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+  1 celestia-addon-2010_exoplanets_ii        (Arquivos de Build Existem)
+==> Exibir diffs?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+==> Criando o pacote: celestia-addon-2010_exoplanets_ii 1.0-2 (qui 30 abr 2026 10:59:06)
+==> Obtendo fontes...
+  -> Baixando 2010_Exoplanets_II.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'www.celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://www.celestiamotherlode.net/creators/Brad/2010_Exoplanets_II.zip
+    Abortando...
+ -> erro ao descarregar as fontes: /home/gabrielcalheiros/.cache/yay/celestia-addon-2010_exoplanets_ii 
+	 context: exit status 1 
+	 
+
+:: [1m(1/1) Analisando SRCINFO: celestia-addon-2010_exoplanets_ii[0m
+==> Criando o pacote: celestia-addon-2010_exoplanets_ii 1.0-2 (qui 30 abr 2026 10:59:07)
+==> Verificando as dependências de tempo de execução...
+==> Verificando as dependências de tempo de compilação...
+==> Obtendo fontes...
+  -> Baixando 2010_Exoplanets_II.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'www.celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://www.celestiamotherlode.net/creators/Brad/2010_Exoplanets_II.zip
+    Abortando...
+ -> erro ao construir: celestia-addon-2010_exoplanets_ii-exit status 1
+ -> Falha ao instalar os seguintes pacotes. É necessária a intervenção manual:
+celestia-addon-2010_exoplanets_ii - exit status 1
+AUR Explicit (1): celestia-addon-earth_without_water_2-2.0-2
+:: [1m(1/1) PKGBUILD transferido: celestia-addon-earth_without_water_2[0m
+  1 celestia-addon-earth_without_water_2     (Arquivos de Build Existem)
+==> Limpar e construir quais pacotes?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+  1 celestia-addon-earth_without_water_2     (Arquivos de Build Existem)
+==> Exibir diffs?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+==> Criando o pacote: celestia-addon-earth_without_water_2 2.0-2 (qui 30 abr 2026 10:59:11)
+==> Obtendo fontes...
+  -> Baixando earthwowater2_dds_vers2.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'www.celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://www.celestiamotherlode.net/creators/adirondack/earthwowater2_dds_vers2.zip
+    Abortando...
+ -> erro ao descarregar as fontes: /home/gabrielcalheiros/.cache/yay/celestia-addon-earth_without_water_2 
+	 context: exit status 1 
+	 
+
+:: [1m(1/1) Analisando SRCINFO: celestia-addon-earth_without_water_2[0m
+==> Criando o pacote: celestia-addon-earth_without_water_2 2.0-2 (qui 30 abr 2026 10:59:12)
+==> Verificando as dependências de tempo de execução...
+==> Verificando as dependências de tempo de compilação...
+==> Obtendo fontes...
+  -> Baixando earthwowater2_dds_vers2.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'www.celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://www.celestiamotherlode.net/creators/adirondack/earthwowater2_dds_vers2.zip
+    Abortando...
+ -> erro ao construir: celestia-addon-earth_without_water_2-exit status 1
+ -> Falha ao instalar os seguintes pacotes. É necessária a intervenção manual:
+celestia-addon-earth_without_water_2 - exit status 1
+AUR Explicit (1): celestia-addon-spaceman_spiff-1-2
+:: [1m(1/1) PKGBUILD transferido: celestia-addon-spaceman_spiff[0m
+  1 celestia-addon-spaceman_spiff            (Arquivos de Build Existem)
+==> Limpar e construir quais pacotes?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+  1 celestia-addon-spaceman_spiff            (Arquivos de Build Existem)
+==> Exibir diffs?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+==> Criando o pacote: celestia-addon-spaceman_spiff 1-2 (qui 30 abr 2026 10:59:15)
+==> Obtendo fontes...
+  -> Baixando Spiff.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'www.celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://www.celestiamotherlode.net/creators/lukr/Spiff.zip
+    Abortando...
+ -> erro ao descarregar as fontes: /home/gabrielcalheiros/.cache/yay/celestia-addon-spaceman_spiff 
+	 context: exit status 1 
+	 
+
+:: [1m(1/1) Analisando SRCINFO: celestia-addon-spaceman_spiff[0m
+==> Criando o pacote: celestia-addon-spaceman_spiff 1-2 (qui 30 abr 2026 10:59:16)
+==> Verificando as dependências de tempo de execução...
+==> Verificando as dependências de tempo de compilação...
+==> Obtendo fontes...
+  -> Baixando Spiff.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'www.celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://www.celestiamotherlode.net/creators/lukr/Spiff.zip
+    Abortando...
+ -> erro ao construir: celestia-addon-spaceman_spiff-exit status 1
+ -> Falha ao instalar os seguintes pacotes. É necessária a intervenção manual:
+celestia-addon-spaceman_spiff - exit status 1
+AUR Explicit (1): celestia-addon-2010_exoplanets-1.0-2
+:: [1m(1/1) PKGBUILD transferido: celestia-addon-2010_exoplanets[0m
+  1 celestia-addon-2010_exoplanets           (Arquivos de Build Existem)
+==> Limpar e construir quais pacotes?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+  1 celestia-addon-2010_exoplanets           (Arquivos de Build Existem)
+==> Exibir diffs?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+==> Criando o pacote: celestia-addon-2010_exoplanets 1.0-2 (qui 30 abr 2026 10:59:19)
+==> Obtendo fontes...
+  -> Baixando 2010_Exoplanets.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'www.celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://www.celestiamotherlode.net/creators/Brad/2010_Exoplanets.zip
+    Abortando...
+ -> erro ao descarregar as fontes: /home/gabrielcalheiros/.cache/yay/celestia-addon-2010_exoplanets 
+	 context: exit status 1 
+	 
+
+:: [1m(1/1) Analisando SRCINFO: celestia-addon-2010_exoplanets[0m
+==> Criando o pacote: celestia-addon-2010_exoplanets 1.0-2 (qui 30 abr 2026 10:59:20)
+==> Verificando as dependências de tempo de execução...
+==> Verificando as dependências de tempo de compilação...
+==> Obtendo fontes...
+  -> Baixando 2010_Exoplanets.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'www.celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://www.celestiamotherlode.net/creators/Brad/2010_Exoplanets.zip
+    Abortando...
+ -> erro ao construir: celestia-addon-2010_exoplanets-exit status 1
+ -> Falha ao instalar os seguintes pacotes. É necessária a intervenção manual:
+celestia-addon-2010_exoplanets - exit status 1
+AUR Explicit (1): celestia-addon-2009_exoplanets-1.0-2
+:: [1m(1/1) PKGBUILD transferido: celestia-addon-2009_exoplanets[0m
+  1 celestia-addon-2009_exoplanets           (Arquivos de Build Existem)
+==> Limpar e construir quais pacotes?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+  1 celestia-addon-2009_exoplanets           (Arquivos de Build Existem)
+==> Exibir diffs?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+==> Criando o pacote: celestia-addon-2009_exoplanets 1.0-2 (qui 30 abr 2026 10:59:24)
+==> Obtendo fontes...
+  -> Baixando 2009_Exoplanets.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'www.celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://www.celestiamotherlode.net/creators/Brad/2009_Exoplanets.zip
+    Abortando...
+ -> erro ao descarregar as fontes: /home/gabrielcalheiros/.cache/yay/celestia-addon-2009_exoplanets 
+	 context: exit status 1 
+	 
+
+:: [1m(1/1) Analisando SRCINFO: celestia-addon-2009_exoplanets[0m
+==> Criando o pacote: celestia-addon-2009_exoplanets 1.0-2 (qui 30 abr 2026 10:59:25)
+==> Verificando as dependências de tempo de execução...
+==> Verificando as dependências de tempo de compilação...
+==> Obtendo fontes...
+  -> Baixando 2009_Exoplanets.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'www.celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://www.celestiamotherlode.net/creators/Brad/2009_Exoplanets.zip
+    Abortando...
+ -> erro ao construir: celestia-addon-2009_exoplanets-exit status 1
+ -> Falha ao instalar os seguintes pacotes. É necessária a intervenção manual:
+celestia-addon-2009_exoplanets - exit status 1
+AUR Explicit (1): celestia-addon-vaders_tie_fighter-1-2
+AUR Dependency (1): celestia-addon-tatooine_endor_deathstar-1.1-2
+:: [1mPKGBUILD atualizado, ignorando a transferência: celestia-addon-tatooine_endor_deathstar[0m
+:: [1m(1/1) PKGBUILD transferido: celestia-addon-vaders_tie_fighter[0m
+  2 celestia-addon-vaders_tie_fighter        (Arquivos de Build Existem)
+  1 celestia-addon-tatooine_endor_deathstar  (Arquivos de Build Existem)
+==> Limpar e construir quais pacotes?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+  2 celestia-addon-vaders_tie_fighter        (Arquivos de Build Existem)
+  1 celestia-addon-tatooine_endor_deathstar  (Arquivos de Build Existem)
+==> Exibir diffs?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+==> Criando o pacote: celestia-addon-vaders_tie_fighter 1-2 (qui 30 abr 2026 10:59:29)
+==> Obtendo fontes...
+  -> Baixando SW-VaderTie.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://celestiamotherlode.net/creators/jestr/SW-VaderTie.zip
+    Abortando...
+==> Criando o pacote: celestia-addon-tatooine_endor_deathstar 1.1-2 (qui 30 abr 2026 10:59:31)
+==> Obtendo fontes...
+  -> Baixando StarWars_upd.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'www.celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://www.celestiamotherlode.net/creators/jestr/StarWars_upd.zip
+    Abortando...
+ -> erro ao descarregar as fontes: /home/gabrielcalheiros/.cache/yay/celestia-addon-vaders_tie_fighter 
+	 context: erro ao descarregar as fontes: /home/gabrielcalheiros/.cache/yay/celestia-addon-vaders_tie_fighter 
+	 context: exit status 1 
+	 
+ 
+	 
+
+erro ao descarregar as fontes: /home/gabrielcalheiros/.cache/yay/celestia-addon-tatooine_endor_deathstar 
+	 context: erro ao descarregar as fontes: /home/gabrielcalheiros/.cache/yay/celestia-addon-tatooine_endor_deathstar 
+	 context: exit status 1 
+	 
+ 
+	 
+
+:: [1m(1/2) Analisando SRCINFO: celestia-addon-vaders_tie_fighter[0m
+:: [1m(2/2) Analisando SRCINFO: celestia-addon-tatooine_endor_deathstar[0m
+==> Criando o pacote: celestia-addon-tatooine_endor_deathstar 1.1-2 (qui 30 abr 2026 10:59:31)
+==> Verificando as dependências de tempo de execução...
+==> Verificando as dependências de tempo de compilação...
+==> Obtendo fontes...
+  -> Baixando StarWars_upd.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'www.celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://www.celestiamotherlode.net/creators/jestr/StarWars_upd.zip
+    Abortando...
+ -> Falha ao instalar camada, indo até à camada seguinte.error:erro ao construir: celestia-addon-tatooine_endor_deathstar - exit status 1
+==> Criando o pacote: celestia-addon-tatooine_endor_deathstar 1.1-2 (qui 30 abr 2026 10:59:32)
+==> Verificando as dependências de tempo de execução...
+==> Verificando as dependências de tempo de compilação...
+==> Obtendo fontes...
+  -> Baixando StarWars_upd.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'www.celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://www.celestiamotherlode.net/creators/jestr/StarWars_upd.zip
+    Abortando...
+ -> erro ao construir: celestia-addon-tatooine_endor_deathstar-exit status 1
+==> Criando o pacote: celestia-addon-vaders_tie_fighter 1-2 (qui 30 abr 2026 10:59:33)
+==> Verificando as dependências de tempo de execução...
+==> Dependências faltando:
+  -> celestia-addon-tatooine_endor_deathstar
+==> ERRO: Não foi possível resolver todas as dependências.
+ -> erro ao construir: celestia-addon-vaders_tie_fighter-exit status 8
+ -> Falha ao instalar os seguintes pacotes. É necessária a intervenção manual:
+celestia-addon-tatooine_endor_deathstar - exit status 1
+celestia-addon-vaders_tie_fighter - exit status 8
+AUR Explicit (1): celestia-addon-millenium_falcon-1-2
+AUR Dependency (1): celestia-addon-tatooine_endor_deathstar-1.1-2
+:: [1mPKGBUILD atualizado, ignorando a transferência: celestia-addon-tatooine_endor_deathstar[0m
+:: [1m(1/1) PKGBUILD transferido: celestia-addon-millenium_falcon[0m
+  2 celestia-addon-millenium_falcon          (Arquivos de Build Existem)
+  1 celestia-addon-tatooine_endor_deathstar  (Arquivos de Build Existem)
+==> Limpar e construir quais pacotes?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+  2 celestia-addon-millenium_falcon          (Arquivos de Build Existem)
+  1 celestia-addon-tatooine_endor_deathstar  (Arquivos de Build Existem)
+==> Exibir diffs?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+==> Criando o pacote: celestia-addon-millenium_falcon 1-2 (qui 30 abr 2026 10:59:37)
+==> Obtendo fontes...
+  -> Baixando SW-Falcon.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://celestiamotherlode.net/creators/jestr/SW-Falcon.zip
+    Abortando...
+==> Criando o pacote: celestia-addon-tatooine_endor_deathstar 1.1-2 (qui 30 abr 2026 10:59:37)
+==> Obtendo fontes...
+  -> Baixando StarWars_upd.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'www.celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://www.celestiamotherlode.net/creators/jestr/StarWars_upd.zip
+    Abortando...
+ -> erro ao descarregar as fontes: /home/gabrielcalheiros/.cache/yay/celestia-addon-millenium_falcon 
+	 context: erro ao descarregar as fontes: /home/gabrielcalheiros/.cache/yay/celestia-addon-millenium_falcon 
+	 context: exit status 1 
+	 
+ 
+	 
+
+erro ao descarregar as fontes: /home/gabrielcalheiros/.cache/yay/celestia-addon-tatooine_endor_deathstar 
+	 context: erro ao descarregar as fontes: /home/gabrielcalheiros/.cache/yay/celestia-addon-tatooine_endor_deathstar 
+	 context: exit status 1 
+	 
+ 
+	 
+
+:: [1m(1/2) Analisando SRCINFO: celestia-addon-millenium_falcon[0m
+:: [1m(2/2) Analisando SRCINFO: celestia-addon-tatooine_endor_deathstar[0m
+==> Criando o pacote: celestia-addon-tatooine_endor_deathstar 1.1-2 (qui 30 abr 2026 10:59:38)
+==> Verificando as dependências de tempo de execução...
+==> Verificando as dependências de tempo de compilação...
+==> Obtendo fontes...
+  -> Baixando StarWars_upd.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'www.celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://www.celestiamotherlode.net/creators/jestr/StarWars_upd.zip
+    Abortando...
+ -> Falha ao instalar camada, indo até à camada seguinte.error:erro ao construir: celestia-addon-tatooine_endor_deathstar - exit status 1
+==> Criando o pacote: celestia-addon-tatooine_endor_deathstar 1.1-2 (qui 30 abr 2026 10:59:39)
+==> Verificando as dependências de tempo de execução...
+==> Verificando as dependências de tempo de compilação...
+==> Obtendo fontes...
+  -> Baixando StarWars_upd.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'www.celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://www.celestiamotherlode.net/creators/jestr/StarWars_upd.zip
+    Abortando...
+ -> erro ao construir: celestia-addon-tatooine_endor_deathstar-exit status 1
+==> Criando o pacote: celestia-addon-millenium_falcon 1-2 (qui 30 abr 2026 10:59:40)
+==> Verificando as dependências de tempo de execução...
+==> Dependências faltando:
+  -> celestia-addon-tatooine_endor_deathstar
+==> ERRO: Não foi possível resolver todas as dependências.
+ -> erro ao construir: celestia-addon-millenium_falcon-exit status 8
+ -> Falha ao instalar os seguintes pacotes. É necessária a intervenção manual:
+celestia-addon-tatooine_endor_deathstar - exit status 1
+celestia-addon-millenium_falcon - exit status 8
+AUR Explicit (1): celestia-addon-star_destroyer-1-2
+AUR Dependency (1): celestia-addon-tatooine_endor_deathstar-1.1-2
+:: [1mPKGBUILD atualizado, ignorando a transferência: celestia-addon-tatooine_endor_deathstar[0m
+:: [1m(1/1) PKGBUILD transferido: celestia-addon-star_destroyer[0m
+  2 celestia-addon-star_destroyer            (Arquivos de Build Existem)
+  1 celestia-addon-tatooine_endor_deathstar  (Arquivos de Build Existem)
+==> Limpar e construir quais pacotes?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+  2 celestia-addon-tatooine_endor_deathstar  (Arquivos de Build Existem)
+  1 celestia-addon-star_destroyer            (Arquivos de Build Existem)
+==> Exibir diffs?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+==> Criando o pacote: celestia-addon-tatooine_endor_deathstar 1.1-2 (qui 30 abr 2026 10:59:43)
+==> Obtendo fontes...
+  -> Baixando StarWars_upd.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'www.celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://www.celestiamotherlode.net/creators/jestr/StarWars_upd.zip
+    Abortando...
+==> Criando o pacote: celestia-addon-star_destroyer 1-2 (qui 30 abr 2026 10:59:45)
+==> Obtendo fontes...
+  -> Baixando SW-StarDestroyer(big).zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://celestiamotherlode.net/creators/jestr/SW-StarDestroyer(big).zip
+    Abortando...
+ -> erro ao descarregar as fontes: /home/gabrielcalheiros/.cache/yay/celestia-addon-tatooine_endor_deathstar 
+	 context: erro ao descarregar as fontes: /home/gabrielcalheiros/.cache/yay/celestia-addon-tatooine_endor_deathstar 
+	 context: exit status 1 
+	 
+ 
+	 
+
+erro ao descarregar as fontes: /home/gabrielcalheiros/.cache/yay/celestia-addon-star_destroyer 
+	 context: erro ao descarregar as fontes: /home/gabrielcalheiros/.cache/yay/celestia-addon-star_destroyer 
+	 context: exit status 1 
+	 
+ 
+	 
+
+:: [1m(1/2) Analisando SRCINFO: celestia-addon-star_destroyer[0m
+:: [1m(2/2) Analisando SRCINFO: celestia-addon-tatooine_endor_deathstar[0m
+==> Criando o pacote: celestia-addon-tatooine_endor_deathstar 1.1-2 (qui 30 abr 2026 10:59:46)
+==> Verificando as dependências de tempo de execução...
+==> Verificando as dependências de tempo de compilação...
+==> Obtendo fontes...
+  -> Baixando StarWars_upd.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'www.celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://www.celestiamotherlode.net/creators/jestr/StarWars_upd.zip
+    Abortando...
+ -> Falha ao instalar camada, indo até à camada seguinte.error:erro ao construir: celestia-addon-tatooine_endor_deathstar - exit status 1
+==> Criando o pacote: celestia-addon-tatooine_endor_deathstar 1.1-2 (qui 30 abr 2026 10:59:47)
+==> Verificando as dependências de tempo de execução...
+==> Verificando as dependências de tempo de compilação...
+==> Obtendo fontes...
+  -> Baixando StarWars_upd.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'www.celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://www.celestiamotherlode.net/creators/jestr/StarWars_upd.zip
+    Abortando...
+ -> erro ao construir: celestia-addon-tatooine_endor_deathstar-exit status 1
+==> Criando o pacote: celestia-addon-star_destroyer 1-2 (qui 30 abr 2026 10:59:48)
+==> Verificando as dependências de tempo de execução...
+==> Dependências faltando:
+  -> celestia-addon-tatooine_endor_deathstar
+==> ERRO: Não foi possível resolver todas as dependências.
+ -> erro ao construir: celestia-addon-star_destroyer-exit status 8
+ -> Falha ao instalar os seguintes pacotes. É necessária a intervenção manual:
+celestia-addon-tatooine_endor_deathstar - exit status 1
+celestia-addon-star_destroyer - exit status 8
+AUR Explicit (1): celestia-addon-deep_impact-1-2
+:: [1m(1/1) PKGBUILD transferido: celestia-addon-deep_impact[0m
+  1 celestia-addon-deep_impact               (Arquivos de Build Existem)
+==> Limpar e construir quais pacotes?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+  1 celestia-addon-deep_impact               (Arquivos de Build Existem)
+==> Exibir diffs?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+==> Criando o pacote: celestia-addon-deep_impact 1-2 (qui 30 abr 2026 10:59:51)
+==> Obtendo fontes...
+  -> Baixando DeepImpact.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://celestiamotherlode.net/creators/jestr/DeepImpact.zip
+    Abortando...
+ -> erro ao descarregar as fontes: /home/gabrielcalheiros/.cache/yay/celestia-addon-deep_impact 
+	 context: exit status 1 
+	 
+
+:: [1m(1/1) Analisando SRCINFO: celestia-addon-deep_impact[0m
+==> Criando o pacote: celestia-addon-deep_impact 1-2 (qui 30 abr 2026 10:59:51)
+==> Verificando as dependências de tempo de execução...
+==> Verificando as dependências de tempo de compilação...
+==> Obtendo fontes...
+  -> Baixando DeepImpact.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://celestiamotherlode.net/creators/jestr/DeepImpact.zip
+    Abortando...
+ -> erro ao construir: celestia-addon-deep_impact-exit status 1
+ -> Falha ao instalar os seguintes pacotes. É necessária a intervenção manual:
+celestia-addon-deep_impact - exit status 1
+AUR Explicit (1): celestia-addon-apollo_soyuz-1-2
+:: [1m(1/1) PKGBUILD transferido: celestia-addon-apollo_soyuz[0m
+  1 celestia-addon-apollo_soyuz              (Arquivos de Build Existem)
+==> Limpar e construir quais pacotes?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+  1 celestia-addon-apollo_soyuz              (Arquivos de Build Existem)
+==> Exibir diffs?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+==> Criando o pacote: celestia-addon-apollo_soyuz 1-2 (qui 30 abr 2026 10:59:55)
+==> Obtendo fontes...
+  -> Baixando astpmodel.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://celestiamotherlode.net/creators/jackhiggins/astpmodel.zip
+    Abortando...
+ -> erro ao descarregar as fontes: /home/gabrielcalheiros/.cache/yay/celestia-addon-apollo_soyuz 
+	 context: exit status 1 
+	 
+
+:: [1m(1/1) Analisando SRCINFO: celestia-addon-apollo_soyuz[0m
+==> Criando o pacote: celestia-addon-apollo_soyuz 1-2 (qui 30 abr 2026 10:59:56)
+==> Verificando as dependências de tempo de execução...
+==> Verificando as dependências de tempo de compilação...
+==> Obtendo fontes...
+  -> Baixando astpmodel.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://celestiamotherlode.net/creators/jackhiggins/astpmodel.zip
+    Abortando...
+ -> erro ao construir: celestia-addon-apollo_soyuz-exit status 1
+ -> Falha ao instalar os seguintes pacotes. É necessária a intervenção manual:
+celestia-addon-apollo_soyuz - exit status 1
+AUR Explicit (1): celestial-gtk-theme-1.3.3-1
+Sync Make Dependency (1): sassc-3.6.2-5
+:: [1m(1/1) PKGBUILD transferido: celestial-gtk-theme[0m
+  1 celestial-gtk-theme                      (Arquivos de Build Existem)
+==> Limpar e construir quais pacotes?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+  1 celestial-gtk-theme                      (Arquivos de Build Existem)
+==> Exibir diffs?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+==> Criando o pacote: celestial-gtk-theme 1.3.3-1 (qui 30 abr 2026 11:00:00)
+==> Obtendo fontes...
+  -> Baixando celestial-gtk-theme-1.3.3.tar.gz...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0  0      0   0      0   0      0      0      0                              0  0      0   0      0   0      0      0      0                              0
+  0      0   0      0   0      0      0      0                              0100  7.03M   0  7.03M   0      0  5.12M      0           00:01          7.04M100 18.04M   0 18.04M   0      0  7.61M      0           00:02          9.03M100 29.05M   0 29.05M   0      0  8.62M      0           00:03          9.69M100 36.24M   0 36.24M   0      0  9.01M      0           00:04          9.69M100 36.24M   0 36.24M   0      0  9.01M      0           00:04          9.69M100 36.24M   0 36.24M   0      0  9.01M      0           00:04          9.69M
+==> ATENÇÃO: Ignorando verificação de assinaturas PGP de arquivo fonte.
+==> Validando source arquivos com b2sums...
+    celestial-gtk-theme-1.3.3.tar.gz ... Passou
+:: [1m(1/1) Analisando SRCINFO: celestial-gtk-theme[0m
+resolvendo dependências...
+procurando pacotes conflitantes...
+
+Pacote (2)     Versão nova    Diferença  Tamanho do download
+
+extra/libsass  3.6.6-2         2,26 MiB             0,67 MiB
+extra/sassc    3.6.2-5         0,02 MiB             0,01 MiB
+
+Tamanho total download:   0,68 MiB
+Tamanho total instalado:  2,28 MiB
+
+:: Continuar a instalação? [S/n] 
+:: Obtendo pacotes...
+ libsass-3.6.6-2-x86_64 sendo baixado...
+ sassc-3.6.2-5-x86_64 sendo baixado...
+verificando chaveiro...
+verificando integridade de pacotes...
+carregando arquivos do pacote...
+verificando conflitos de arquivos...
+:: Processando alterações do pacote...
+instalando libsass...
+instalando sassc...
+:: Executando hooks pós-transação...
+(1/1) Arming ConditionNeedsUpdate...
+==> Criando o pacote: celestial-gtk-theme 1.3.3-1 (qui 30 abr 2026 11:00:07)
+==> Verificando as dependências de tempo de execução...
+==> Verificando as dependências de tempo de compilação...
+==> Obtendo fontes...
+  -> Encontrado celestial-gtk-theme-1.3.3.tar.gz
+==> Validando source arquivos com b2sums...
+    celestial-gtk-theme-1.3.3.tar.gz ... Passou
+==> Removendo diretório $srcdir/ existente...
+==> Extraindo fontes...
+  -> Extraindo celestial-gtk-theme-1.3.3.tar.gz com bsdtar
+==> Os fontes estão prontos.
+==> Criando o pacote: celestial-gtk-theme 1.3.3-1 (qui 30 abr 2026 11:00:09)
+==> Verificando as dependências de tempo de execução...
+==> Verificando as dependências de tempo de compilação...
+==> ATENÇÃO: Usando a árvore do $srcdir/ existente
+==> Entrando no ambiente de fakeroot...
+==> Iniciando package()...
+'gnome-shell' not found, using styles for last gnome-shell version available.
+Installing '/home/gabrielcalheiros/.cache/yay/celestial-gtk-theme/pkg/celestial-gtk-theme/usr/share/themes/Celestial-Sea'...
+Installing '/home/gabrielcalheiros/.cache/yay/celestial-gtk-theme/pkg/celestial-gtk-theme/usr/share/themes/Celestial-Aliz'...
+Installing '/home/gabrielcalheiros/.cache/yay/celestial-gtk-theme/pkg/celestial-gtk-theme/usr/share/themes/Celestial-Azul'...
+Installing '/home/gabrielcalheiros/.cache/yay/celestial-gtk-theme/pkg/celestial-gtk-theme/usr/share/themes/Celestial-Pueril'...
+Installing '/home/gabrielcalheiros/.cache/yay/celestial-gtk-theme/pkg/celestial-gtk-theme/usr/share/themes/Celestial-Sea-Light'...
+Installing '/home/gabrielcalheiros/.cache/yay/celestial-gtk-theme/pkg/celestial-gtk-theme/usr/share/themes/Celestial-Aliz-Light'...
+Installing '/home/gabrielcalheiros/.cache/yay/celestial-gtk-theme/pkg/celestial-gtk-theme/usr/share/themes/Celestial-Azul-Light'...
+Installing '/home/gabrielcalheiros/.cache/yay/celestial-gtk-theme/pkg/celestial-gtk-theme/usr/share/themes/Celestial-Pueril-Light'...
+Installing '/home/gabrielcalheiros/.cache/yay/celestial-gtk-theme/pkg/celestial-gtk-theme/usr/share/themes/Celestial-Sea-Dark'...
+Installing '/home/gabrielcalheiros/.cache/yay/celestial-gtk-theme/pkg/celestial-gtk-theme/usr/share/themes/Celestial-Aliz-Dark'...
+Installing '/home/gabrielcalheiros/.cache/yay/celestial-gtk-theme/pkg/celestial-gtk-theme/usr/share/themes/Celestial-Azul-Dark'...
+Installing '/home/gabrielcalheiros/.cache/yay/celestial-gtk-theme/pkg/celestial-gtk-theme/usr/share/themes/Celestial-Pueril-Dark'...
+Installing Kvantum theme 'Celestial-Sea'...
+Installing Kvantum theme 'Celestial-Aliz'...
+Installing Kvantum theme 'Celestial-Azul'...
+Installing Kvantum theme 'Celestial-Pueril'...
+Installing Kvantum theme 'Celestial-Sea-Light'...
+Installing Kvantum theme 'Celestial-Aliz-Light'...
+Installing Kvantum theme 'Celestial-Azul-Light'...
+Installing Kvantum theme 'Celestial-Pueril-Light'...
+Installing Kvantum theme 'Celestial-Sea-Dark'...
+Installing Kvantum theme 'Celestial-Aliz-Dark'...
+Installing Kvantum theme 'Celestial-Azul-Dark'...
+Installing Kvantum theme 'Celestial-Pueril-Dark'...
+Installing Celestial backgrounds...
+Installing Sea backgrounds to '/home/gabrielcalheiros/.cache/yay/celestial-gtk-theme/pkg/celestial-gtk-theme/usr/share/backgrounds/celestial/sea'...
+Installing Aliz backgrounds to '/home/gabrielcalheiros/.cache/yay/celestial-gtk-theme/pkg/celestial-gtk-theme/usr/share/backgrounds/celestial/aliz'...
+Installing Azul backgrounds to '/home/gabrielcalheiros/.cache/yay/celestial-gtk-theme/pkg/celestial-gtk-theme/usr/share/backgrounds/celestial/azul'...
+Installing Pueril backgrounds to '/home/gabrielcalheiros/.cache/yay/celestial-gtk-theme/pkg/celestial-gtk-theme/usr/share/backgrounds/celestial/pueril'...
+Generated /home/gabrielcalheiros/.cache/yay/celestial-gtk-theme/pkg/celestial-gtk-theme/usr/share/gnome-background-properties/celestial-sea.xml
+Generated /home/gabrielcalheiros/.cache/yay/celestial-gtk-theme/pkg/celestial-gtk-theme/usr/share/gnome-background-properties/celestial-aliz.xml
+Generated /home/gabrielcalheiros/.cache/yay/celestial-gtk-theme/pkg/celestial-gtk-theme/usr/share/gnome-background-properties/celestial-azul.xml
+Generated /home/gabrielcalheiros/.cache/yay/celestial-gtk-theme/pkg/celestial-gtk-theme/usr/share/gnome-background-properties/celestial-pueril.xml
+Generated /home/gabrielcalheiros/.cache/yay/celestial-gtk-theme/pkg/celestial-gtk-theme/usr/share/mate-background-properties/celestial-sea.xml
+Generated /home/gabrielcalheiros/.cache/yay/celestial-gtk-theme/pkg/celestial-gtk-theme/usr/share/mate-background-properties/celestial-aliz.xml
+Generated /home/gabrielcalheiros/.cache/yay/celestial-gtk-theme/pkg/celestial-gtk-theme/usr/share/mate-background-properties/celestial-azul.xml
+Generated /home/gabrielcalheiros/.cache/yay/celestial-gtk-theme/pkg/celestial-gtk-theme/usr/share/mate-background-properties/celestial-pueril.xml
+Generated /home/gabrielcalheiros/.cache/yay/celestial-gtk-theme/pkg/celestial-gtk-theme/usr/share/cinnamon-background-properties/celestial-sea.xml
+Generated /home/gabrielcalheiros/.cache/yay/celestial-gtk-theme/pkg/celestial-gtk-theme/usr/share/cinnamon-background-properties/celestial-aliz.xml
+Generated /home/gabrielcalheiros/.cache/yay/celestial-gtk-theme/pkg/celestial-gtk-theme/usr/share/cinnamon-background-properties/celestial-azul.xml
+Generated /home/gabrielcalheiros/.cache/yay/celestial-gtk-theme/pkg/celestial-gtk-theme/usr/share/cinnamon-background-properties/celestial-pueril.xml
+Backgrounds installed successfully!
+Location: /home/gabrielcalheiros/.cache/yay/celestial-gtk-theme/pkg/celestial-gtk-theme/usr/share/backgrounds/celestial
+You can now select them from your desktop environment's background settings.
+Installing CopyQ clipboard manager themes...
+  Installed celestial-sea-light.ini
+  Installed celestial-sea-dark.ini
+  Installed celestial-aliz-light.ini
+  Installed celestial-aliz-dark.ini
+  Installed celestial-azul-light.ini
+  Installed celestial-azul-dark.ini
+  Installed celestial-pueril-light.ini
+  Installed celestial-pueril-dark.ini
+CopyQ themes installed to /home/gabrielcalheiros/.cache/yay/celestial-gtk-theme/pkg/celestial-gtk-theme/usr/share/copyq/themes/
+Installing Celestial cursor theme...
+Celestial cursor theme installed to /home/gabrielcalheiros/.cache/yay/celestial-gtk-theme/pkg/celestial-gtk-theme/usr/share/icons/Celestial
+Installing Ghostty terminal theme...
+Ghostty theme installed to /home/gabrielcalheiros/.cache/yay/celestial-gtk-theme/pkg/celestial-gtk-theme/usr/share/ghostty/themes/Celestial
+Finished!...
+==> Organizando a instalação...
+  -> Removendo arquivos libtool...
+  -> Purging unreproducible ruby files...
+  -> Removendo arquivos de biblioteca estática...
+  -> Expurgando arquivos indesejados...
+  -> Removendo símbolos desnecessários dos executáveis e bibliotecas...
+  -> Comprimindo páginas de man e info...
+==> Verificando problemas de empacotamento...
+==> Criando o pacote "celestial-gtk-theme"...
+  -> Gerando o arquivo .PKGINFO...
+  -> Gerando o arquivo .BUILDINFO...
+  -> Gerando o arquivo .MTREE ...
+  -> Compactando o pacote...
+==> Saindo do ambiente de fakeroot.
+==> Compilação concluída: celestial-gtk-theme 1.3.3-1 (qui 30 abr 2026 11:00:53)
+==> Limpando...
+carregando pacotes...
+resolvendo dependências...
+procurando pacotes conflitantes...
+
+Pacote (1)           Versão nova    Diferença
+
+celestial-gtk-theme  1.3.3-1        64,61 MiB
+
+Tamanho total instalado:  64,61 MiB
+
+:: Continuar a instalação? [S/n] 
+verificando chaveiro...
+verificando integridade de pacotes...
+carregando arquivos do pacote...
+verificando conflitos de arquivos...
+:: Processando alterações do pacote...
+instalando celestial-gtk-theme...
+Dependências opcionais para celestial-gtk-theme
+    gtk-engine-murrine: GTK2 theme support
+    gtk-engines: GTK2 theme support
+    papirus-icon-theme: recommended icon theme
+    kvantum: Qt theme support [instalado]
+:: Executando hooks pós-transação...
+(1/2) Arming ConditionNeedsUpdate...
+(2/2) Updating icon theme caches...
+AUR Explicit (1): celestia-addon-ulysses-2.0-1
+:: [1m(1/1) PKGBUILD transferido: celestia-addon-ulysses[0m
+  1 celestia-addon-ulysses                   (Arquivos de Build Existem)
+==> Limpar e construir quais pacotes?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+  1 celestia-addon-ulysses                   (Arquivos de Build Existem)
+==> Exibir diffs?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+==> Criando o pacote: celestia-addon-ulysses 2.0-1 (qui 30 abr 2026 11:00:57)
+==> Obtendo fontes...
+  -> Baixando Ulysses-full.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0  0      0   0      0   0      0      0      0           00:01              0  0      0   0      0   0      0      0      0           00:02              0  0      0   0      0   0      0      0      0           00:03              0  0      0   0      0   0      0      0      0           00:04              0  0      0   0      0   0      0      0      0           00:05              0  0      0   0      0   0      0      0      0           00:06              0  0      0   0      0   0      0      0      0           00:07              0  0      0   0      0   0      0      0      0           00:08              0 55 181.3k  55 99.96k   0      0  10818      0   00:17   00:09   00:08  20368100 181.3k 100 181.3k   0      0  19607      0   00:09   00:09          20368100 181.3k 100 181.3k   0      0  19606      0   00:09   00:09          20368100 181.3k 100 181.3k   0      0  19606      0   00:09   00:09          20368
+==> ATENÇÃO: Ignorando verificação de assinaturas PGP de arquivo fonte.
+==> Validando source arquivos com md5sums...
+    Ulysses-full.zip ... Passou
+:: [1m(1/1) Analisando SRCINFO: celestia-addon-ulysses[0m
+==> Criando o pacote: celestia-addon-ulysses 2.0-1 (qui 30 abr 2026 11:01:07)
+==> Verificando as dependências de tempo de execução...
+==> Verificando as dependências de tempo de compilação...
+==> Obtendo fontes...
+  -> Encontrado Ulysses-full.zip
+==> Validando source arquivos com md5sums...
+    Ulysses-full.zip ... Passou
+==> Removendo diretório $srcdir/ existente...
+==> Extraindo fontes...
+  -> Extraindo Ulysses-full.zip com bsdtar
+==> Os fontes estão prontos.
+==> Criando o pacote: celestia-addon-ulysses 2.0-1 (qui 30 abr 2026 11:01:08)
+==> Verificando as dependências de tempo de execução...
+==> Verificando as dependências de tempo de compilação...
+==> ATENÇÃO: Usando a árvore do $srcdir/ existente
+==> Entrando no ambiente de fakeroot...
+==> Iniciando package()...
+==> Organizando a instalação...
+  -> Removendo arquivos libtool...
+  -> Purging unreproducible ruby files...
+  -> Removendo arquivos de biblioteca estática...
+  -> Expurgando arquivos indesejados...
+  -> Removendo símbolos desnecessários dos executáveis e bibliotecas...
+  -> Comprimindo páginas de man e info...
+==> Verificando problemas de empacotamento...
+==> Criando o pacote "celestia-addon-ulysses"...
+  -> Gerando o arquivo .PKGINFO...
+  -> Gerando o arquivo .BUILDINFO...
+  -> Gerando o arquivo .MTREE ...
+  -> Compactando o pacote...
+==> Saindo do ambiente de fakeroot.
+==> Compilação concluída: celestia-addon-ulysses 2.0-1 (qui 30 abr 2026 11:01:10)
+==> Limpando...
+carregando pacotes...
+resolvendo dependências...
+procurando pacotes conflitantes...
+
+Pacote (1)              Versão nova    Diferença
+
+celestia-addon-ulysses  2.0-1           0,60 MiB
+
+Tamanho total instalado:  0,60 MiB
+
+:: Continuar a instalação? [S/n] 
+verificando chaveiro...
+verificando integridade de pacotes...
+carregando arquivos do pacote...
+verificando conflitos de arquivos...
+:: Processando alterações do pacote...
+instalando celestia-addon-ulysses...
+:: Executando hooks pós-transação...
+(1/1) Arming ConditionNeedsUpdate...
+AUR Explicit (1): celestia-addon-atlantis_2-2.0-2
+:: [1m(1/1) PKGBUILD transferido: celestia-addon-atlantis_2[0m
+  1 celestia-addon-atlantis_2                (Arquivos de Build Existem)
+==> Limpar e construir quais pacotes?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+  1 celestia-addon-atlantis_2                (Arquivos de Build Existem)
+==> Exibir diffs?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+==> Criando o pacote: celestia-addon-atlantis_2 2.0-2 (qui 30 abr 2026 11:01:13)
+==> Obtendo fontes...
+  -> Baixando EC_Atlantis_FD.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'www.celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://www.celestiamotherlode.net/creators/elchristou/EC_Atlantis_FD.zip
+    Abortando...
+ -> erro ao descarregar as fontes: /home/gabrielcalheiros/.cache/yay/celestia-addon-atlantis_2 
+	 context: exit status 1 
+	 
+
+:: [1m(1/1) Analisando SRCINFO: celestia-addon-atlantis_2[0m
+==> Criando o pacote: celestia-addon-atlantis_2 2.0-2 (qui 30 abr 2026 11:01:14)
+==> Verificando as dependências de tempo de execução...
+==> Verificando as dependências de tempo de compilação...
+==> Obtendo fontes...
+  -> Baixando EC_Atlantis_FD.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'www.celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://www.celestiamotherlode.net/creators/elchristou/EC_Atlantis_FD.zip
+    Abortando...
+ -> erro ao construir: celestia-addon-atlantis_2-exit status 1
+ -> Falha ao instalar os seguintes pacotes. É necessária a intervenção manual:
+celestia-addon-atlantis_2 - exit status 1
+AUR Explicit (1): celestia-addon-voyagers-2-2
+:: [1m(1/1) PKGBUILD transferido: celestia-addon-voyagers[0m
+  1 celestia-addon-voyagers                  (Arquivos de Build Existem)
+==> Limpar e construir quais pacotes?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+  1 celestia-addon-voyagers                  (Arquivos de Build Existem)
+==> Exibir diffs?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+==> Criando o pacote: celestia-addon-voyagers 2-2 (qui 30 abr 2026 11:01:18)
+==> Obtendo fontes...
+  -> Baixando voyager-full.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'www.celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://www.celestiamotherlode.net/creators/fsgregs/jackhiggins_spacecraft/voyager-full.zip
+    Abortando...
+ -> erro ao descarregar as fontes: /home/gabrielcalheiros/.cache/yay/celestia-addon-voyagers 
+	 context: exit status 1 
+	 
+
+:: [1m(1/1) Analisando SRCINFO: celestia-addon-voyagers[0m
+==> Criando o pacote: celestia-addon-voyagers 2-2 (qui 30 abr 2026 11:01:19)
+==> Verificando as dependências de tempo de execução...
+==> Verificando as dependências de tempo de compilação...
+==> Obtendo fontes...
+  -> Baixando voyager-full.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'www.celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://www.celestiamotherlode.net/creators/fsgregs/jackhiggins_spacecraft/voyager-full.zip
+    Abortando...
+ -> erro ao construir: celestia-addon-voyagers-exit status 1
+ -> Falha ao instalar os seguintes pacotes. É necessária a intervenção manual:
+celestia-addon-voyagers - exit status 1
+AUR Explicit (1): celestia-addon-xwing-1-3
+AUR Dependency (1): celestia-addon-tatooine_endor_deathstar-1.1-2
+:: [1mPKGBUILD atualizado, ignorando a transferência: celestia-addon-tatooine_endor_deathstar[0m
+:: [1m(1/1) PKGBUILD transferido: celestia-addon-xwing[0m
+  2 celestia-addon-xwing                     (Arquivos de Build Existem)
+  1 celestia-addon-tatooine_endor_deathstar  (Arquivos de Build Existem)
+==> Limpar e construir quais pacotes?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+  2 celestia-addon-tatooine_endor_deathstar  (Arquivos de Build Existem)
+  1 celestia-addon-xwing                     (Arquivos de Build Existem)
+==> Exibir diffs?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+==> Criando o pacote: celestia-addon-xwing 1-3 (qui 30 abr 2026 11:01:22)
+==> Obtendo fontes...
+  -> Baixando SW-X-wing.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://celestiamotherlode.net/creators/jestr/SW-X-wing.zip
+    Abortando...
+==> Criando o pacote: celestia-addon-tatooine_endor_deathstar 1.1-2 (qui 30 abr 2026 11:01:23)
+==> Obtendo fontes...
+  -> Baixando StarWars_upd.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'www.celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://www.celestiamotherlode.net/creators/jestr/StarWars_upd.zip
+    Abortando...
+ -> erro ao descarregar as fontes: /home/gabrielcalheiros/.cache/yay/celestia-addon-xwing 
+	 context: erro ao descarregar as fontes: /home/gabrielcalheiros/.cache/yay/celestia-addon-xwing 
+	 context: exit status 1 
+	 
+ 
+	 
+
+erro ao descarregar as fontes: /home/gabrielcalheiros/.cache/yay/celestia-addon-tatooine_endor_deathstar 
+	 context: erro ao descarregar as fontes: /home/gabrielcalheiros/.cache/yay/celestia-addon-tatooine_endor_deathstar 
+	 context: exit status 1 
+	 
+ 
+	 
+
+:: [1m(1/2) Analisando SRCINFO: celestia-addon-tatooine_endor_deathstar[0m
+:: [1m(2/2) Analisando SRCINFO: celestia-addon-xwing[0m
+==> Criando o pacote: celestia-addon-tatooine_endor_deathstar 1.1-2 (qui 30 abr 2026 11:01:24)
+==> Verificando as dependências de tempo de execução...
+==> Verificando as dependências de tempo de compilação...
+==> Obtendo fontes...
+  -> Baixando StarWars_upd.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'www.celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://www.celestiamotherlode.net/creators/jestr/StarWars_upd.zip
+    Abortando...
+ -> Falha ao instalar camada, indo até à camada seguinte.error:erro ao construir: celestia-addon-tatooine_endor_deathstar - exit status 1
+==> Criando o pacote: celestia-addon-tatooine_endor_deathstar 1.1-2 (qui 30 abr 2026 11:01:25)
+==> Verificando as dependências de tempo de execução...
+==> Verificando as dependências de tempo de compilação...
+==> Obtendo fontes...
+  -> Baixando StarWars_upd.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'www.celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://www.celestiamotherlode.net/creators/jestr/StarWars_upd.zip
+    Abortando...
+ -> erro ao construir: celestia-addon-tatooine_endor_deathstar-exit status 1
+==> Criando o pacote: celestia-addon-xwing 1-3 (qui 30 abr 2026 11:01:26)
+==> Verificando as dependências de tempo de execução...
+==> Dependências faltando:
+  -> celestia-addon-tatooine_endor_deathstar
+==> ERRO: Não foi possível resolver todas as dependências.
+ -> erro ao construir: celestia-addon-xwing-exit status 8
+ -> Falha ao instalar os seguintes pacotes. É necessária a intervenção manual:
+celestia-addon-tatooine_endor_deathstar - exit status 1
+celestia-addon-xwing - exit status 8
+AUR Explicit (1): celestia-m42-plugin-1-1
+:: [1m(1/1) PKGBUILD transferido: celestia-m42-plugin[0m
+  1 celestia-m42-plugin                      (Arquivos de Build Existem)
+==> Limpar e construir quais pacotes?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+  1 celestia-m42-plugin                      (Arquivos de Build Existem)
+==> Exibir diffs?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+==> Criando o pacote: celestia-m42-plugin 1-2 (qui 30 abr 2026 11:01:29)
+==> Obtendo fontes...
+  -> Baixando M42.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0  0      0   0      0   0      0      0      0           00:01              0  0      0   0      0   0      0      0      0           00:02              0  0      0   0      0   0      0      0      0           00:03              0  0      0   0      0   0      0      0      0           00:04              0  0      0   0      0   0      0      0      0           00:05              0  0      0   0      0   0      0      0      0           00:06              0  0      0   0      0   0      0      0      0           00:07              0 31  3.40M  31  1.08M   0      0 133.1k      0   00:26   00:08   00:18 222.6k100  3.40M 100  3.40M   0      0 404.0k      0   00:08   00:08         222.6k100  3.40M 100  3.40M   0      0 404.0k      0   00:08   00:08         222.6k100  3.40M 100  3.40M   0      0 404.0k      0   00:08   00:08         222.6k
+==> ATENÇÃO: Ignorando verificação de assinaturas PGP de arquivo fonte.
+==> Validando source arquivos com md5sums...
+    M42.zip ... Passou
+:: [1m(1/1) Analisando SRCINFO: celestia-m42-plugin[0m
+==> Criando o pacote: celestia-m42-plugin 1-2 (qui 30 abr 2026 11:01:38)
+==> Verificando as dependências de tempo de execução...
+==> Verificando as dependências de tempo de compilação...
+==> Obtendo fontes...
+  -> Encontrado M42.zip
+==> Validando source arquivos com md5sums...
+    M42.zip ... Passou
+==> Removendo diretório $srcdir/ existente...
+==> Extraindo fontes...
+  -> Extraindo M42.zip com bsdtar
+==> Os fontes estão prontos.
+==> Criando o pacote: celestia-m42-plugin 1-2 (qui 30 abr 2026 11:01:39)
+==> Verificando as dependências de tempo de execução...
+==> Verificando as dependências de tempo de compilação...
+==> ATENÇÃO: Usando a árvore do $srcdir/ existente
+==> Entrando no ambiente de fakeroot...
+==> Iniciando package()...
+==> Organizando a instalação...
+  -> Removendo arquivos libtool...
+  -> Purging unreproducible ruby files...
+  -> Removendo arquivos de biblioteca estática...
+  -> Expurgando arquivos indesejados...
+  -> Removendo símbolos desnecessários dos executáveis e bibliotecas...
+  -> Comprimindo páginas de man e info...
+==> Verificando problemas de empacotamento...
+==> Criando o pacote "celestia-m42-plugin"...
+  -> Gerando o arquivo .PKGINFO...
+  -> Gerando o arquivo .BUILDINFO...
+  -> Gerando o arquivo .MTREE ...
+  -> Compactando o pacote...
+==> Saindo do ambiente de fakeroot.
+==> Compilação concluída: celestia-m42-plugin 1-2 (qui 30 abr 2026 11:01:41)
+==> Limpando...
+carregando pacotes...
+resolvendo dependências...
+procurando pacotes conflitantes...
+
+Pacote (1)           Versão nova    Diferença
+
+celestia-m42-plugin  1-2             3,42 MiB
+
+Tamanho total instalado:  3,42 MiB
+
+:: Continuar a instalação? [S/n] 
+verificando chaveiro...
+verificando integridade de pacotes...
+carregando arquivos do pacote...
+verificando conflitos de arquivos...
+:: Processando alterações do pacote...
+instalando celestia-m42-plugin...
+:: Executando hooks pós-transação...
+(1/1) Arming ConditionNeedsUpdate...
+AUR Explicit (1): celestia-addon-sun-1-3
+:: [1m(1/1) PKGBUILD transferido: celestia-addon-sun[0m
+  1 celestia-addon-sun                       (Arquivos de Build Existem)
+==> Limpar e construir quais pacotes?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+  1 celestia-addon-sun                       (Arquivos de Build Existem)
+==> Exibir diffs?
+==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
+==> 
+==> Criando o pacote: celestia-addon-sun 1-3 (qui 30 abr 2026 11:01:43)
+==> Obtendo fontes...
+  -> Baixando Sun-new-2010.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'www.celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://www.celestiamotherlode.net/creators/fsgregs/Sun-new-2010.zip
+    Abortando...
+ -> erro ao descarregar as fontes: /home/gabrielcalheiros/.cache/yay/celestia-addon-sun 
+	 context: exit status 1 
+	 
+
+:: [1m(1/1) Analisando SRCINFO: celestia-addon-sun[0m
+==> Criando o pacote: celestia-addon-sun 1-3 (qui 30 abr 2026 11:01:45)
+==> Verificando as dependências de tempo de execução...
+==> Verificando as dependências de tempo de compilação...
+==> Obtendo fontes...
+  -> Baixando Sun-new-2010.zip...
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+curl: (60) SSL: no alternative certificate subject name matches target hostname 'www.celestiamotherlode.net'
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+==> ERRO: Falha ao baixar https://www.celestiamotherlode.net/creators/fsgregs/Sun-new-2010.zip
+    Abortando...
+ -> erro ao construir: celestia-addon-sun-exit status 1
+ -> Falha ao instalar os seguintes pacotes. É necessária a intervenção manual:
+celestia-addon-sun - exit status 1
+Sync Dependency (1): jp2a-1.3.3-1
+atenção: jp2a-1.3.3-1 está atualizado -- ignorando
+nada para fazer
+Sync Explicit (1): chafa-1.18.2-1
+resolvendo dependências...
+procurando pacotes conflitantes...
+
+Pacote (1)   Versão nova    Diferença  Tamanho do download
+
+extra/chafa  1.18.2-1        1,85 MiB             0,28 MiB
+
+Tamanho total download:   0,28 MiB
+Tamanho total instalado:  1,85 MiB
+
+:: Continuar a instalação? [S/n] 
+:: Obtendo pacotes...
+ chafa-1.18.2-1-x86_64 sendo baixado...
+verificando chaveiro...
+verificando integridade de pacotes...
+carregando arquivos do pacote...
+verificando conflitos de arquivos...
+:: Processando alterações do pacote...
+instalando chafa...
+:: Executando hooks pós-transação...
+(1/1) Arming ConditionNeedsUpdate...
+ -> Nenhum pacote AUR localizado para img2txt
+  não há nada a ser feito
